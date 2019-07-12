@@ -1,0 +1,1103 @@
+
+/* MAIN LAYOUT */
+@font-face{font-family:'Glyphicons Halflings';src:url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot');src:url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.woff') format('woff'),url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.ttf') format('truetype'),url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');}.glyphicon{position:relative;top:1px;display:inline-block;font-family:'Glyphicons Halflings';font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;}
+
+.glyphicon-book:before{content:"\e043";}
+.glyphicon-print:before{content:"\e045";}
+#container {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 480px;
+    padding: 20px;
+    width: 100%;
+}
+a {
+    color:#000;
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:underline;
+}
+a:visited {
+    color:#000;
+}
+.nav {
+    padding:10px;
+    border:solid 1px #c0c0c0;
+    border-radius:5px;
+    float:left;
+}
+.nav li {
+    list-style-type:none;
+    float:left;
+    margin:0 10px;
+}
+.nav li a {
+    text-align:center;
+    width:55px;
+    float:left;
+}
+.nav li.active {
+    background-color:green;
+}
+.nav li.active a {
+    color:#fff;
+    font-weight:bold;
+}
+.activeli a.nav-link {
+    color: #EA4242 !important;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+a#logo {
+    max-width: 16em;
+    height: 136px;
+    margin-top: -50px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+span.carousel-control-prev-icon {
+    /* background-color: red; */
+    margin-right: 50px !important;
+}
+span.carousel-control-next-icon {
+    /* background-color: red; */
+    margin-left: 50px !important;
+}
+hr#last.producePage {
+    width: 120%;
+    margin-top: 175px;
+    margin-left: -40px;
+: -:;
+}
+/* recipe page */
+a.text-blue.fab.fa-2x.fa-facebook-f {
+    font-size: 14px;
+    margin-left: 1px;
+    font-weight: bold;
+}
+
+
+#recipespan span:after{
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+    margin-left: 10px;
+}
+#recipespan span:before{
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+    margin-right: 10px;
+}
+body{
+    background:#F1DBC2;
+    background-image: url("../images/background.jpg");
+    min-width:350px;
+    width: auto !important;
+    width:350px;
+}
+.container {
+
+}
+
+.limit img.wide {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+.limit img.tall {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+}
+
+a.footer
+{
+    text-transform: uppercase;
+}
+
+
+#overlay
+{
+    position: relative;
+    text-shadow: #1e2a63 0px 0px 10px;
+    color: white !important;
+    margin-bottom:25px;
+}
+
+.bottom-left
+{
+
+    text-align:center;
+
+}
+.box
+{
+    position: absolute;
+    bottom: 68px;
+    left: 16px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color:#e33821;
+  min-height: 50px;
+ }
+
+.box-content
+{
+  text-align:center;
+}
+
+
+
+
+/* Box Shadows */
+
+.bsr{
+    box-shadow: 0 5px 10px rgba(198, 44, 40, .1);
+}
+
+/* colors */
+.cr{
+    color: #c62c28;
+}
+.cy{
+    color: #f9d726;
+}
+.cbl{
+    color: #1e2a63;
+}
+.clb{
+    color: #9b9797;
+}
+.cb{
+    color: #545454;
+}
+.cg{
+    color: #dddddd;
+}
+
+.bgw{
+    background: #fff;
+}
+.bgelw{
+    background:white;
+    margin-bottom:20px;
+
+}
+.bgelp{
+    background:#F9F2E7;
+    margin-bottom:20px;
+
+}
+.bgelg{
+    background: #F9F9F9;
+
+}
+.bgbl{
+    background:#1F2C63;
+}
+
+.BAR{
+  margin-bottom: 20px;
+}
+
+
+/* Font weights */
+.fw9{
+    font-weight: 900;
+}
+.fw8{
+    font-weight: 800;
+}
+.fw7{
+    font-weight: 700;
+}
+.fw6{
+    font-weight: 600;
+}
+.fw5{
+    font-weight: 500;
+}
+.fw4{
+    font-weight: 400;
+}
+.fw3{
+    font-weight: 300;
+}
+.fwb{
+    font-weight: bold;
+}
+.fwm{
+    font-weight: 500;
+}
+.fwl{
+    font-weight: lighter;
+}
+
+/* font Sizes */
+.fz10{
+    font-size: 10px !important;
+}
+.fz12{
+    font-size: 12px !important;
+}
+.fz14{
+    font-size: 14px !important;
+}
+.fz16{
+    font-size: 16px !important;
+}
+.fz18{
+    font-size: 18px !important;
+}
+.fz20{
+    font-size: 20px !important;
+}
+.fz22{
+    font-size: 22px !important;
+}
+.fz24{
+    font-size: 24px !important;
+}
+.fz26{
+    font-size: 26px !important;
+}
+.fz28{
+    font-size: 28px !important;
+}
+.fz30{
+    font-size: 30px !important;
+}
+.fz40{
+    font-size: 40px !important;
+}
+.fz50{
+    font-size: 50px !important;
+}
+
+
+/* Borders */
+
+.bn{
+    border: none;
+}
+.br0{
+    border-radius: 0;
+}
+.br10{
+    border-radius: 10px;
+}
+.br20{
+    border-radius: 20px;
+}
+.br30{
+    border-radius: 30px;
+}
+.br40{
+    border-radius: 40px;
+}
+.br50{
+    border-radius: 50px;
+}
+
+.brc{
+    border-radius: 50%;
+}
+
+/* Anchor Tags */
+.tdn{
+    text-decoration: none;
+}
+.tdu{
+    text-decoration: underline;
+}
+
+
+/* Postions */
+.posr{
+    position: relative;
+}
+.posf{
+    position: fixed;
+}
+
+
+/* overflows */
+.oxh{
+    overflow-x: hidden;
+}
+.oyh{
+    overflow-y: hidden;
+}
+.oxs{
+    overflow-x: scroll;
+}
+.oys{
+    overflow-y: scroll;
+}
+
+
+
+/* Header */
+ .navbar-light .nav-link,
+ .navbar .dropdown-menu .dropdown-item{
+    color: #1e2a63 !important;
+    font-weight: 600;
+ }
+
+
+ .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #1e2a63 !important;
+    opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #1e2a63 !important;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: #1e2a63 !important;
+}
+
+
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img-valign {
+    vertical-align: middle;
+    margin-bottom: 0.75em;
+}
+
+.text1 {
+    font-size: 44px;
+}
+
+.text2 {
+    font-size: 24px;
+}
+
+a.tablinks
+{
+
+}
+
+a.downloadlink
+{
+    font-weight: bold;
+    color:#1e2a63;
+    text-decoration: underline;
+}
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+/* change menu color when clicked */
+li.parent.active a {
+    color: #e33821 !important;
+}
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+ .seperator
+ {
+  height: 50%;
+  width: 1px;
+  background: black;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  background: #1e2a63;
+}
+
+MrEavesh5 {
+     font-size: 14px;
+     font-family: "Mr Eaves Mod Heavy" !important;
+     font-weight: bold;
+}
+
+ampihanh1
+{
+    font-family: "ampihan reg";
+    color: #1e2a63 !Important;
+    font-weight: bold;
+    font-size: 40px !Important;
+}
+
+ampihanh2
+{
+    font-family: "ampihan reg";
+    color: #1e2a63 !Important;
+    font-weight: bold;
+    font-size: 22px !Important;
+}
+ampihanh3
+{
+    font-family: ampihan2;
+    color: #1e2a63 !Important;
+    font-weight: bold;
+    font-size: 22px !Important;
+}
+h1 {
+     font-size: 48px;
+     font-family: "Mr Eaves Mod Heavy" !important;
+     font-weight: bold;
+     color: #1e2a63 !Important;
+ }
+
+h2
+ {
+    font-size:38px;
+    font-family: "Mr Eaves Mod Reg";
+    font-weight: bold !Important;
+    color: #1e2a63 !Important;
+}
+footerH2 {
+    font-size:11.5px;
+    font-family: "Mr Eaves Mod Heavy"  !important;;
+    color: #1e2a63 !Important;
+}
+footerText {
+    font-size: 13px !important;
+    font-family: "Mr Eaves Mod Reg";
+    color: #1e2a63 !Important;
+    margin: 0 0 0px !important;
+}
+.contrast-high{
+    color: green !important;
+    background-color: black !important;
+}
+#over
+{
+    width:100%;
+    height:100%;
+    text-align: center;
+    background-color: white;
+}
+.Centerer
+{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.Centered
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+input#Form_Form_action_doSubscribe {
+    background: white;
+    color: #1F2C63 !important;
+    font: 18px "Mr Eaves Mod Heavy" !important;
+    height: calc(2.25rem + 2px);
+}
+
+h2#Form_Form_CustomisedHeading {
+
+    font-size:12.5px !important;
+    font-family: "Mr Eaves Mod Heavy";
+
+}
+
+.divider {
+    width:500px;
+    text-align:center;
+}
+hr.producePage {
+    width: 100%;
+}
+hr {
+    border: none;
+    height: 1px;
+    color: #ab9271; /* old IE */
+    background-color: #ab9271; /* Modern Browsers */
+}
+.divider hr {
+    margin-left:auto;
+    margin-right:auto;
+    width:40%;
+
+}
+
+.left {
+    float:left;
+}
+
+.right {
+    float:right;
+}
+/* product page text */
+productTitle {
+    color: #1e2a63 !Important;
+    font-size: 25px;
+    font-family: "Mr Eaves Mod Heavy";
+}
+productTitle2 {
+    color: #1e2a63 !Important;
+    font-size: 15px;
+    font-family: "Mr Eaves Mod Heavy";
+}
+
+productDesc > p{
+    color: #1e2a63 !Important;
+    font-size: 16px !important;
+    font-family: "Mr Eaves Mod Reg";
+}
+productampihan
+{
+    font-family: "ampihan reg";
+    color: #1e2a63 !Important;
+    font-size: 35px !Important;
+    font-weight: bold;
+}
+/* end product ***/
+
+/* recipe ***/
+receipeTitle{
+    font-size: 25px;
+    color: #e33821;
+    font-family: "Mr Eaves Mod Heavy";
+}
+receipeDesc{
+    font-size: 16px !important;
+    color: #1e2a63 !Important;
+    font-family: "Mr Eaves Mod Reg";
+}
+receipeSmallDesc{
+    font-size: 13px !important;
+    color: #1e2a63 !Important;
+    font-family: "Mr Eaves Mod Reg";
+}
+/***********/
+italicText{
+    font-family:"Mr Eaves Mod Reg Italic";
+    color: #1e2a63 !Important;
+    font-size: 21px !Important;
+
+}
+recipeShortTitle {
+    line-height: 25px;
+    font-size: 14px;
+    font-family: "Mr Eaves Mod Heavy";
+    font-weight: bold;
+}
+
+ .recipeShortTitleReg {
+     line-height: 10px !important;
+     margin: 0 0 0px !important;
+    font-size: 13px;
+    font-family: "Mr Eaves Mod Reg";
+
+}
+p {
+    margin: 0 0 0px !important;
+    font-size: 25px;
+    font-family: "Mr Eaves Mod Reg";
+
+}
+div#textoverimage {
+    position: relative !important;
+    text-align: center !important;
+    color: white !important;
+}
+#textoverimage .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav ul, nav li {
+
+    font-family: "Mr Eaves Mod Heavy";
+    font-size: 15px;
+    color: #1e2a63 !Important;
+
+}
+
+.aboutContainer img {
+   width: 100%;
+}
+input#ContactForm_action_submit{
+    width: 96%;
+
+}
+
+input#ConsumerForm_action_submitConsumerForm{
+
+        width: 90%;
+
+}
+.seperator {
+  height: 100%;
+  width: 1px;
+  background: black;
+  margin: 0 auto;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  left: 50%;
+}
+
+#faqvideo .embed-responsive.embed-responsive-16by9.my-5 {
+    width:70% !important;
+}
+img.img-fluid.tall {
+    object-fit: contain;
+    /* max-height: 70px; */
+}
+input#receipeSearch
+{
+    margin-top: -1px;
+}
+
+input#receipeSearch,button#SearchForm_SearchForm_action_results, input.SearchForm_SearchForm_action_results {
+    background: white;
+    color: #1F2C63 !important;
+    font:18px "Mr Eaves Mod Heavy" !important;
+    height: calc(2.25rem + 2px);
+}
+input#receipe_input {
+    background: white;
+    color: #1F2C63 !important;
+    border: none !important;
+    font: 18px "Mr Eaves Mod Reg Italic" !important;
+}
+select#recipelist {
+    width: 100%;
+    height: 80%;
+    font: 18px "Mr Eaves Mod Reg Italic" !important;
+    color: #1F2C63 !important;
+    text-align: center;
+
+}
+
+#listPageRecipeImg{
+    background-color:white;
+    margin-left:10px;
+    margin-bottom:20px;
+}
+button#SearchReceipe_SearchForm_action_results
+{
+margin-top:20px !important;
+ width: 100%;
+}
+
+.recipecontainer {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image responsive */
+.recipecontainer img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.recipecontainer .btn {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #1F2C63 !Important;
+  color: white;
+  font-weight: bold;
+  padding: 7px 7px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* do not group these rules */
+*::-webkit-input-placeholder {
+    color: #1e2a63 !Important;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: #1e2a63 !Important;
+    opacity: 1;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: #1e2a63 !Important;
+    opacity: 1;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #1e2a63 !Important;
+}
+*::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #1e2a63 !Important;
+}
+*::placeholder {
+    /* modern browser */
+    color: #1e2a63 !Important;
+}
+
+.homeImgcontainer .imagelogo,.recipecontainer .imagelogo {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 12px 24px;
+
+
+}
+
+
+
+footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    width: 100%;
+    background-image: url("../images/footer.jpg");
+    background-size: 100% 100%;
+}
+.recipecontainer .btnR {
+  position: absolute;
+  top: 70%;
+  left: 14%;
+  transform: translate(-30%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #1F2C63 !Important;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.recipecontainer .text1R {
+  position: absolute;
+  top: 25%;
+  left: 14%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.recipecontainer .text2R {
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+.recipebgelp {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: #F9F2E7;
+  }
+
+#receipsplaceholderImg
+{
+  position: absolute;
+  top: 50%;
+  left: 76%;
+  height:90%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+a {
+color: #1e2a63 !Important;
+}
+
+a#recipemainImage {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+a#receipsplaceholderImg{
+     opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+
+#recipeDescription
+{
+   position: absolute;
+  top: 10%;
+  left: 5%;
+
+
+}
+
+img#receipsImg {
+    opacity: 0.3;
+}
+
+.center {
+    position: relative;          /* where the next element will be automatically positioned */
+    display: inline-block;       /* causes element width to shrink to fit content */
+        margin-left: auto;
+    margin-right: auto;
+}
+#recipeDescription2
+{
+   position: absolute;
+  top: 25%;
+  left: 5%;
+}
+#recipeDescription3
+{
+   position: absolute;
+  top: 40%;
+  left: 5%;
+}
+#methoddescriptioncolumn
+{
+    position: absolute;
+    bottom: 0;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 64.7%;
+    height: 90px;
+    line-height: 80px;
+    text-align: center !important;
+}
+
+
+#myBtn
+{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-weight:bold;
+  border: none;
+  outline: none;
+  color: black !important;
+  cursor: pointer;
+
+    transform: scale(2, 4);
+ background: white !important;
+}
+
+iframe#map {
+    width: 100%;
+}
+
+footer.bgelg {
+    bottom: 0;
+    position: relative;
+}
+
+input#Form_ContactForm_action_doSubmitForm,input#Form_ConsumerForm_action_doSubmitForm {
+    width: 100%;
+}
+
+div#Form_ContactForm_WhereDidYouFindUs_Holder, div#Form_ContactForm_Email_Holder {
+    float: right;
+    clear: left;
+    width: 48%;
+    margin-top: -45px;
+
+  }
+  div#Form_ContactForm_Phone_Holder,div#Form_ContactForm_Name_Holder {
+    float: left;
+    clear: left;
+    width: 48%;
+}
+
+
+pagefooter .text1{
+  top:35px !important;
+}
+pagefooter .text2{
+  top:75px !important;
+}
+pagefooter .learnmore{
+  top:135px !important;
+}
+
+
+
+select#recipeCategory {
+    width: 100%;
+    height: 50%;
+
+}
+.fancybox-button {
+
+    background: none !important;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    cursor: pointer;
+    display: inline-block;
+    height: 44px;
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    transition: color .2s;
+    vertical-align: top;
+    visibility: inherit;
+    width: 100% !important;
+
+}
+.navbar .dropdown-menu{
+    font-size: 14px;
+}
+@media(max-width: 1200px){
+    .navbar-nav{
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    footer input{
+        max-width: 200px;
+        margin-bottom: 0px;
+    }
+    footer,#recipe {
+        text-align: center !important;
+    }
+    div#Form_ContactForm_Name_Holder,div#Form_ContactForm_Phone_Holder,div#Form_ContactForm_Email_Holder,div#Form_ContactForm_WhereDidYouFindUs_Holder
+    {
+        width:100%;
+        float:none;
+        margin-top: 30px;
+    }
+    a.btn, button, input[type="submit"], .Actions .action {
+
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .center.leaf { /*reduce the leaf for modil device */
+        max-width: 20px !important;
+    }
+    .container {
+        max-width: 1440px;
+    }
+    a#logo >img {
+        min-width: 200px;
+    }
+    .navbar {
+
+        float: right !important;
+    }
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+@media (max-width: 450px) {
+    body {
+        background: #F1DBC2;
+        background-image: none;
+
+    }
+}

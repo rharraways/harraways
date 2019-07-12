@@ -1,0 +1,309 @@
+/* MrEavesMod ofont familt  */
+  @font-face {
+      font-family: 'ampihan';
+      src: url('../fonts/ampihan/ampihan.eot');
+      url('../fonts/ampihan/ampihan.woff') format('woff'),
+      url('../fonts/ampihan/ampihan.ttf') format('truetype'),
+      url('../fonts/ampihan/ampihan.svg#WebSymbolsRegular') format('svg');
+
+  }
+@font-face {
+    font-family: 'ampihan reg';
+    src: url('../fonts/ampihan/ampihan.otf') format('opentype')
+}
+@font-face {
+    font-family: 'ampihan2';
+    src: url('../fonts/ampihan2/ampihan.eot');
+    src: url('../fonts/ampihan2/ampihan.eot?#iefix') format('embedded-opentype'), url('../fonts/ampihan2/ampihan.woff') format('woff'), url('../fonts/ampihan2/ampihan.ttf') format('truetype'), url('../fonts/ampihan2/ampihan.svg#WebSymbolsRegular') format('svg');
+
+}
+@font-face {
+
+    font-family: 'Mr Eaves Mod Bold';
+    src: url('../fonts/MrEavesModOT/MrEavesSanOT-Bold.eot');
+    url('../fonts/MrEavesModOT/MrEavesSanOT-Bold.woff') format('woff'),
+    url('../fonts/MrEavesModOT/MrEavesSanOT-Bold.svg#WebSymbolsRegular') format('svg');
+
+}
+
+@font-face {
+
+    font-family: 'Mr Eaves Mod Heavy';
+    src:  url('../fonts/MrEavesModOT/MrEavesSanOT-Heavy.otf') format("opentype");
+
+}
+@font-face {
+
+    font-family: 'Mr Eaves Mod Reg';
+    src: url('../fonts/MrEavesModOT/MrEavesSanOT-Reg.eot');
+    src:  url('../fonts/MrEavesModOT/MrEavesSanOT-Reg.otf') format("opentype"),
+    url('../fonts/MrEavesModOT/MrEavesSanOT-Reg.woff') format('woff'),
+    url('../fonts/MrEavesModOT/MrEavesSanOT-Reg.svg#WebSymbolsRegular') format('svg');
+
+}
+@font-face {
+
+    font-family: 'Mr Eaves Mod Reg Italic';
+
+    src:  url('../fonts/MrEavesModOT/MrEavesSanOT-RegItalic.otf') format("opentype");
+
+}
+
+/* BASE TYPOGRPHY */
+
+
+body 
+{
+    margin: 0;
+    font-family: 'Mr Eaves Mod Reg';
+    font-size: 20px;
+    text-align: left;
+    background-color: #fff;
+    -webkit-text-size-adjust: none; /* The text size is not adjusted for Safari on iPhone */   
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+}
+  
+
+/* HEADERS */
+.typography h1,
+.typography h2,
+.typography h3,
+.typography h4,
+.typography h5,
+.typography h6 {
+    font-family: Mr Eaves Mod OT;
+    color: #1e2a63 !Important;
+    font-weight: bold;
+ 
+}
+
+
+
+/* PARAGRAGHS */
+.typography  p { line-height: 25px; margin: 0 0 15px;   color: #1e2a63 !Important;}
+  .typography .intro {
+      font-family: 'Mr Eaves Mod OT', Helvetica, Arial, Sans-Serif;
+      font-size: 22px;
+      line-height: 32px;
+      margin-bottom: 20px;
+  }
+
+  .typography li{
+    margin-bottom: 5px;
+    font-size: 20px !Important;;
+    line-height: 25px;
+    margin: 10px 0 20px 0 !important;
+   
+}
+.typography em { font-style: italic; }
+
+.grey {
+	color: #414143;
+}
+
+
+/* LINKS */
+.typography a, 
+.typography a.intro {
+    color: #1e2a63
+    text-decoration: none;
+}
+  .typography a:hover { 
+    text-decoration: underline;
+  }
+  .typography a:focus { }
+
+
+/* LIST STYLES
+-------------------------------------------- */
+.typography ul, 
+.typography ol,
+.typography dl { margin: 0 0 20px 25px; }
+
+  .typography li { margin-bottom: 5px; }
+
+
+/* TABLE STYLES
+-------------------------------------------- */
+.typography table {
+    border-collapse: collapse; /* borders are collapsed into a single border when possible */
+    
+    border-spacing: 0; /* The border-spacing property sets the distance between the borders of adjacent cells - acts as a backup to border-collapse: collapse */
+    margin: 0 0 10px;
+    text-align: left;
+}
+  .typography table tr:nth-child(even) {
+      background-color: #ededed
+  }
+  .typography table tr.even,
+  .typography table th,
+  .typography thead td {
+      background-color: #ededed
+  }
+  .typography table td,
+  .typography table th {
+      padding: 2px 5px;
+      vertical-align: top;
+  }
+  .typography table th {
+      font-weight: bold;
+  }
+
+
+/* WYSIWYG EDITOR ALIGNMENT CLASSES 
+-------------------------------------------- */
+.typography .left {
+    text-align: left
+}
+.typography .center {
+    text-align: center
+}
+.typography .right {
+    text-align: right
+}
+
+
+/* IMAGES 
+-------------------------------------------- */
+.typography img {
+    height: auto; /* resets the image height so that it maintains its aspect ratio when width is set */
+}
+.typography img.left {
+    float: left;
+    max-width: 50%;
+    margin: 5px 20px 10px 0;
+}
+.typography img.right {
+    float: right;
+    max-width: 50%; /* Responsive width */
+    margin: 5px 0 10px 20px;
+}
+.typography img.leftAlone {
+    float: left;
+    margin-right: 100%;
+    margin-bottom: 10px;
+    clear: both;
+}
+.typography img.center {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 10px;
+    clear: both;
+}
+.typography .captionImage { width: 100%; margin-top: 5px; }
+.typography .captionImage img { margin: 0; }
+  .typography .captionImage.left {
+    float: left;
+    margin: 5px 30px 20px 0px;
+  }
+  .typography .captionImage.right{
+    float: right;
+    margin: 5px 0 20px 30px;
+  }
+  .typography .captionImage.left[style],
+  .typography .captionImage.right[style] {
+    max-width: 50%; /* Overides core width to make responsive */
+  }
+  .typography .captionImage.left img,
+  .typography .captionImage.right img {
+    float: none;
+    max-width: none;
+    width: 100%;
+  }
+  .typography .captionImage.left img {
+    margin-right: -10px;
+  }
+  .typography .captionImage.right img {
+    margin-left: -10px;
+  }
+  .typography .captionImage.right p {
+    margin-left: -10px;
+    text-align: left;
+    margin-left: -10px;
+  }
+.typography .captionImage.leftAlone{
+  float:none;
+  margin: 0 20px 20px 0px;
+}
+.typography .captionImage.center{
+  margin: 0 auto 20px;
+}
+.typography .captionImage p {
+  clear: both;
+  margin: 5px 0;
+  font-style: italic;
+  color: #888;
+}
+
+
+/* BLOCKQUOTES
+-------------------------------------------- */
+.typography blockquote {
+  background: transparent url(../images/blockquote.png) no-repeat 0px 6px;
+  font-family: "CamboRegular", Georgia, "Times New Roman", Times, serif;
+  color: #777;
+  display: block;
+  font-style: italic;
+  margin: 0 0 20px;
+  float: right;
+  text-indent: 30px;
+  width: 50%;
+  margin-left: 5%;
+  clear: both;
+}
+.typography blockquote p {
+  font-size: 17px;
+  line-height: 25px;
+}
+.typography pre {
+  background: #F7F7F7;
+  border: 1px solid #E4E4E4;
+  font-family: Courier, monospace;
+  margin: 0 0 20px 0;
+  padding: 15px;
+  clear: both;
+}
+
+/* ADDRESS
+-------------------------------------------- */
+address {
+  display: block;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

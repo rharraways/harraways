@@ -1,0 +1,38 @@
+<?php
+class RecipeCategoryFirstLevelPage extends Page
+{
+
+	private static $db = array(
+		'ShortTitle' => 'Varchar(250)',
+
+		
+	);
+	public static $has_many = array( 
+	   
+	);
+		
+	private static $has_one=array(
+		'PlaceHolderImage'=>'PlaceHolderImage',
+		'RecipeCategoryPageImage'=>'PageImage',
+        'RecipeCategoryPageImageLink' => 'SiteTree'
+	);
+	
+	public function getCMSFields() 
+	{
+		$fields = parent::getCMSFields();
+		$fields->addFieldToTab("Root.Main", TextField::create("ShortTitle", "Title to display on parent page"),'Content');
+
+		$fields->addFieldToTab('Root.Main', new UploadField("PlaceHolderImage"), 'Content');
+
+        $fields->addFieldToTab('Root.Main', new UploadField("RecipeCategoryPageImage",'Banner image'), 'Content');
+        $fields->addFieldToTab('Root.Main', new TreeDropdownField("RecipeCategoryPageImageLinkID", "Set Recipe Category Page Image Link", "SiteTree"),'Content');
+
+        //$fields->addFieldToTab('Root.Main', new UploadField('RecipeCategoryPageImage'),'Content');
+       $fields->removeFieldFromTab('Root.Main', 'Content');
+        return $fields;
+	}
+}
+class RecipeCategoryFirstLevelPage_Controller extends Page_Controller {
+
+
+}
