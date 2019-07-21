@@ -92,7 +92,7 @@
                     <% loop $ListPageByType('RecipeListPage') %>
 
 
-                    <a href="$Link"> <img id="receips"   src="$RecipeListPageBannerImage.URL" class="img-fluid" alt=""></a>
+                    <a href="$RecipeListPageFooterBannerImageLink.Link"> <img id="receips"   src="$RecipeListPageBannerImage.URL" class="img-fluid" alt=""></a>
                     <div class="centered">
                       <!--  <h1>$Header1</h1>
                         <h2>$Header2</h2 >
