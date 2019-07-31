@@ -46,7 +46,7 @@ ErrorDocument 500 /assets/error-500.html
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteRule .* framework/main.php?url=%1 [QSA]
 </IfModule>
-### SILVERSTRIPE END ###
+### SILVERSTRIPE END
 
 # php -- BEGIN cPanel-generated handler, do not edit
 # Set the “ea-php70” package as the default “PHP” programming language.
