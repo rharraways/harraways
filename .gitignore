@@ -1,3 +1,5 @@
  cgi-bin/*
 assets/*
 error_log
+memberprofiles/javascript/MemberProfilesAddSection.js
+reports/javascript/ReportAdmin.Tree.js
