@@ -1,6 +1,6 @@
  cgi-bin/*
 assets/*
 error_log
-
+deploy.sh
 memberprofiles/javascript/MemberProfilesAddSection.js
 reports/javascript/ReportAdmin.Tree.js
