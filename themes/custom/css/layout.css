@@ -1114,3 +1114,7 @@ select#recipeCategory {
     margin-left: auto;
     margin-right: auto;
 }
+
+.lightwidget__image {
+  max-height: fit-content !important;
+}
