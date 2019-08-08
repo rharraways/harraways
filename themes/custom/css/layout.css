@@ -1101,3 +1101,16 @@ select#recipeCategory {
 
     }
 }
+
+
+/* Custom Css */
+
+.row_custom_instagram {
+  width: 100%; padding-left: 15px; padding-right: 15px;
+}
+
+.divider_custom_instagram {
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}

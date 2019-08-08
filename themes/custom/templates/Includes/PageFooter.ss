@@ -3,9 +3,8 @@
     <section>
         <div style="margin-bottom:20px;" class="container">
             <div class="row instagram-photos-title">
-
-                <div class="row col-md-7 col-centered text-center">
-                    <div class="divider col-md-12 text-center">
+                <div class="row_custom_instagram">
+                    <div class="divider col-md-12 text-center divider_custom_instagram">
 
                         <div  class="center leaf" style="min-width: 360px;">
                             <img style="margin-top:3px;width:50%;" src="$ThemeDir/images/blue_oat.png" class="img-fluid" alt="">
