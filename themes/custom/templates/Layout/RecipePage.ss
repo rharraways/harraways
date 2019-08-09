@@ -64,7 +64,7 @@
 	</div>
 	
 	<div class="container">
-		<div class="row col-md-12" style="margin-bottom:20px;margin-left: 2px;">
+		<div class="row col-md-12">
 			<div class="col-md-5 " >
 				<div class="row  justify-content-center py-8 cbl">
 					<div class="col-md-12">
@@ -75,7 +75,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-5 offset-md-custom" >
+			<div class="col-md-7 offset-md-custom" >
 				<div class="row justify-content-center py-8 cbl">
 					<div class="col-md-12">
 						<receipeTitle class="text-uppercase ">$MethodTitle:</receipeTitle>
