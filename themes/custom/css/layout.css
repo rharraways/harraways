@@ -1153,3 +1153,11 @@ select#recipeCategory {
 .offset-md-custom {
   padding-left: 90px;
 }
+
+/* Custom footer css */
+
+.footer-container {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+}
