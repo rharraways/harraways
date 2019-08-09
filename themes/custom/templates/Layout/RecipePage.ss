@@ -43,13 +43,13 @@
 				<% end_if %>
 			</div>
 			<hr class="producePage"/>
-			<div class="col-md-custom-recipe_text" >
+			<div class="col-md-12" >
 				<!-- recipe text -->
 				<% loop $ListPageByTypeUsingID('Product',$ProductID) %>
 					<% if $ShortTitle %>
-						<div class="col-md-6" style="text-align: left;margin-right:1px !important; margin-left:-25px !important;">
+						<div class="col-md-custom-recipes" style="text-align: left;margin-right:1px !important; margin-left:-25px !important;">
 							<a href="$Link" >
-								<img style="text-align: left;" src="$ProductthumbnailImage.SetRatioSize(100,100).URL"  class="img-fluid" alt="">
+								<img style="text-align: left;" src="$ProductthumbnailImage.SetRatioSize(125,125).URL"  class="img-fluid" alt="">
 							</a>
 						</div>
 						<div id="recipe" class="col-md-6" style="margin-right:1px !important; margin-left:-14px !important;">
@@ -60,52 +60,6 @@
 					<% end_if %>
 				<% end_loop %>
 			</div>
-		<!--
-			<div class="row">
-				<div class="col-md-6">
-					<productTitle2>
-						<a target="_blank" href="$SiteConfig.Facebook" ><img src="$ThemeDir/images/facebook-icon.png" style="height:30px;" class="img-fluid" alt=""></a>
-						<a target="_blank" href"$SiteConfig.Instagram" ><img src="$ThemeDir/images/instagram-icon.png" style="margin-left:4px;height:30px;" class="img-fluid" alt=""></a>
-						SHARE THIS RECIPE
-					</productTitle2>
-				</div>
-				<div class="col-md-4 offset-md-2">
-					<productTitle2 class="justify-content-end">
-						<a href="#" onClick=" window.print(); return false" ><img style="height:30px;"src="$ThemeDir/images/print-icon.png"></a>
-						PRINT RECIPE
-					</productTitle2>
-				</div>
-			</div>
-		-->
-		<!--
-			<hr style="" class="producePage"/>
-			<div class="row col-md-12"  style="margin-right:1px !important; margin-left:1px !important;">
-				<% loop $ListPageByTypeUsingID('Product',$ProductID) %>
-					<% if $ShortTitle %>
-						<div class="col-md-3 col-sm-12" style="text-align: left;margin-right:1px !important; margin-left:-25px !important;">
-							<a href="$Link" >
-								<img style="text-align: left;" src="$ProductthumbnailImage.SetRatioSize(100,100).URL"  class="img-fluid" alt="">
-							</a>
-						</div>
-						<div id="recipe" class="col-md-3 col-sm-12" style="margin-right:1px !important; margin-left:-14px !important;">
-							<receipeDesc>Made with Harraways <br/>
-								$ShortTitle 
-							</receipeDesc>
-						</div>
-						<div id="recipe"  class="col-md-3 col-sm-12" style="margin-right:1px !important; margin-left:40px !important;">
-							<% loop $ListPageByType('RecipeListPage') %>
-								<a>
-									<img  src="$RecipeLogo.SetRatioSize(100,100).URL"  class="img-fluid" alt="">
-								</a>
-							<% end_loop %>
-						</div>
-						<div id="recipe"  class="col-md-3 col-sm-12" style="margin-right:1px !important; margin-left:-15px !important;">
-							<receipeDesc> A Healthy Living <br/> Breakfast Recipe </receipeDesc>
-						</div>
-					<% end_if %>
-				<% end_loop %>
-			</div>
-		-->
 		</div>
 	</div>
 	

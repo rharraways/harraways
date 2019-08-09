@@ -1131,6 +1131,7 @@ select#recipeCategory {
 .col-md-custom-recipe_text {
   width: 33%;
   padding: 0;
+  padding-right: 75px;
 }
 
 .col-md-custom-recipes {
