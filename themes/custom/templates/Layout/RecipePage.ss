@@ -75,7 +75,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-5 offset-md-2" >
+			<div class="col-md-5 offset-md-custom" >
 				<div class="row justify-content-center py-8 cbl">
 					<div class="col-md-12">
 						<receipeTitle class="text-uppercase ">$MethodTitle:</receipeTitle>

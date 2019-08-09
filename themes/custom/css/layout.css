@@ -1149,3 +1149,7 @@ select#recipeCategory {
 .my-3 {
   clear: both;
 }
+
+.offset-md-custom {
+  padding-left: 70px;
+}
