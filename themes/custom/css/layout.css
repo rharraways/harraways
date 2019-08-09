@@ -1103,7 +1103,7 @@ select#recipeCategory {
 }
 
 
-/* Custom Css */
+/* Custom footer css */
 
 .row_custom_instagram {
   width: 100%; padding-left: 15px; padding-right: 15px;
@@ -1117,4 +1117,11 @@ select#recipeCategory {
 
 .lightwidget__image {
   max-height: fit-content !important;
+}
+
+/* Custom Recipe css */
+
+.col-md-custom-recipe_text {
+  width: 25%
+  padding: 0;
 }
