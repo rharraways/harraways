@@ -1161,3 +1161,8 @@ select#recipeCategory {
   max-width: 100%;
   padding: 0;
 }
+
+.footer-container footer {
+  background-size: 100% !important;
+  background-position: bottom;
+}
