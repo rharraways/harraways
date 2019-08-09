@@ -41,32 +41,25 @@
 						</div>
 					</div>
 				<% end_if %>
-				<div class="col-md-custom-recipe_text" >
-					<!-- recipe text -->
-					<% loop $ListPageByTypeUsingID('Product',$ProductID) %>
-						<% if $ShortTitle %>
-							<div class="col-md-3 col-sm-12" style="text-align: left;margin-right:1px !important; margin-left:-25px !important;">
-								<a href="$Link" >
-									<img style="text-align: left;" src="$ProductthumbnailImage.SetRatioSize(100,100).URL"  class="img-fluid" alt="">
-								</a>
-							</div>
-							<div id="recipe" class="col-md-3 col-sm-12" style="margin-right:1px !important; margin-left:-14px !important;">
-								<receipeDesc>Made with Harraways <br/>
-									$ShortTitle 
-								</receipeDesc>
-							</div>
-							<div id="recipe"  class="col-md-3 col-sm-12" style="margin-right:1px !important; margin-left:40px !important;">
-								<% loop $ListPageByType('RecipeListPage') %>
-									<a>
-										<img  src="$RecipeLogo.SetRatioSize(100,100).URL"  class="img-fluid" alt="">
-									</a>
-								<% end_loop %>
-							</div>
-						<% end_if %>
-					<% end_loop %>
-				</div>
 			</div>
 			<hr class="producePage"/>
+			<div class="col-md-custom-recipe_text" >
+				<!-- recipe text -->
+				<% loop $ListPageByTypeUsingID('Product',$ProductID) %>
+					<% if $ShortTitle %>
+						<div class="col-md-6" style="text-align: left;margin-right:1px !important; margin-left:-25px !important;">
+							<a href="$Link" >
+								<img style="text-align: left;" src="$ProductthumbnailImage.SetRatioSize(100,100).URL"  class="img-fluid" alt="">
+							</a>
+						</div>
+						<div id="recipe" class="col-md-6" style="margin-right:1px !important; margin-left:-14px !important;">
+							<receipeDesc>Made with Harraways <br/>
+								$ShortTitle 
+							</receipeDesc>
+						</div>
+					<% end_if %>
+				<% end_loop %>
+			</div>
 		<!--
 			<div class="row">
 				<div class="col-md-6">
@@ -161,15 +154,16 @@
 		<% end_if %>
 	<% end_loop %>
 	<div class="container">
-		<div class="col-md-6">
-			<productTitle2>
+		<hr class="producePage"/>
+		<div class="container-recipes_icons">
+			<productTitle2 class="left">
 				<a target="_blank" href="$SiteConfig.Facebook" ><img src="$ThemeDir/images/facebook-icon.png" style="height:30px;" class="img-fluid" alt=""></a>
 				<a target="_blank" href"$SiteConfig.Instagram" ><img src="$ThemeDir/images/instagram-icon.png" style="margin-left:4px;height:30px;" class="img-fluid" alt=""></a>
 				SHARE THIS RECIPE
 			</productTitle2>
 		</div>
-		<div class="col-md-6 offset-md-4">
-			<productTitle2 class="justify-content-end">
+		<div class="container-recipes_icons">
+			<productTitle2 class="container-recipes_icons">
 				<a href="#" onClick=" window.print(); return false" ><img style="height:30px;"src="$ThemeDir/images/print-icon.png"></a>
 				PRINT RECIPE
 			</productTitle2>
