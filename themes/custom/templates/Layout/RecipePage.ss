@@ -153,16 +153,16 @@
 			</div>
 		<% end_if %>
 	<% end_loop %>
-	<div class="container">
+	<div class="container-recipes_icons">
 		<hr class="producePage"/>
-		<div class="container-recipes_icons">
+		<div class="col-md-custom-recipes">
 			<productTitle2 class="left">
 				<a target="_blank" href="$SiteConfig.Facebook" ><img src="$ThemeDir/images/facebook-icon.png" style="height:30px;" class="img-fluid" alt=""></a>
 				<a target="_blank" href"$SiteConfig.Instagram" ><img src="$ThemeDir/images/instagram-icon.png" style="margin-left:4px;height:30px;" class="img-fluid" alt=""></a>
 				SHARE THIS RECIPE
 			</productTitle2>
 		</div>
-		<div class="container-recipes_icons">
+		<div class="col-md-custom-recipes">
 			<productTitle2 class="container-recipes_icons">
 				<a href="#" onClick=" window.print(); return false" ><img style="height:30px;"src="$ThemeDir/images/print-icon.png"></a>
 				PRINT RECIPE
