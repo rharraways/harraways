@@ -163,7 +163,7 @@
 			</productTitle2>
 		</div>
 		<div class="col-md-custom-recipes">
-			<productTitle2 class="container-recipes_icons">
+			<productTitle2 class="right">
 				<a href="#" onClick=" window.print(); return false" ><img style="height:30px;"src="$ThemeDir/images/print-icon.png"></a>
 				PRINT RECIPE
 			</productTitle2>

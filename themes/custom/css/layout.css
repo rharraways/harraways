@@ -1142,4 +1142,9 @@ select#recipeCategory {
 
 .container-recipes_icons {
   height: 30px;
+  padding: 15px;
+}
+
+.my-3 {
+  clear: both;
 }
