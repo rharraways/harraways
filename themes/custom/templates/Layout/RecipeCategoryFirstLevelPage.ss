@@ -42,13 +42,14 @@
                         <receipeSmallDesc>$SmallShortTitle</receipeSmallDesc>
                     </div>
                <% end_loop %>
-               $children.Count
                <!-- see more button --->
-               <div class="col-md-12" style="margin-bottom:10px;">
-                   <div  class="center" >
-                       <a   href="$Link"><img  style="max-width: 150px" src="$ThemeDir/images/seemore.jpg" ></a>
+               <% if $children.Count == 5 %>
+                   <div class="col-md-12" style="margin-bottom:10px;">
+                       <div  class="center" >
+                           <a   href="$Link"><img  style="max-width: 150px" src="$ThemeDir/images/seemore.jpg" ></a>
+                       </div>
                    </div>
-               </div>
+                <% end_if %>
            </div>
         <% end_loop %>         
     </div>
