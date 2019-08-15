@@ -100,10 +100,10 @@ jQuery.noConflict();
 
 	}
 
+	$(document).on('click', '.display_more', function(event) {
+		event.prventDefualt();
+	  	alert($(this).parent());
+	});
+
+
 }(jQuery));
-
-
-$(document).on('click', '.display_more', function(event) {
-	event.prventDefualt();
-  	alert($(this).parent());
-});
