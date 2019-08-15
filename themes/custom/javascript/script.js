@@ -103,7 +103,7 @@ jQuery.noConflict();
 }(jQuery));
 
 
-$(".display_more").click(function(event) {
+$(document).on('click', '.display_more', function(event) {
 	event.prventDefualt();
   	alert($(this).parent());
 });
