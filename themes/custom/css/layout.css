@@ -1181,3 +1181,9 @@ a.footer {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+/* Custon Main Recipe page css */
+
+.extra {
+  display: none;
+}
