@@ -43,7 +43,7 @@
                     </div>
                <% end_loop %>
                <!-- see more button --->
-               <% if $children.Count == 5 %>
+               <% if $children.Count == "5" %>
                    <div class="col-md-12" style="margin-bottom:10px;">
                        <div  class="center" >
                            <a   href="$Link"><img  style="max-width: 150px" src="$ThemeDir/images/seemore.jpg" ></a>
