@@ -101,7 +101,7 @@ jQuery.noConflict();
 	}
 
 	$(document).on('click', '.display_more', function(event) {
-		event.prventDefault();
+		event.preventDefault();
 	  	alert($(this).parent());
 	});
 
