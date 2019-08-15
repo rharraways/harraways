@@ -27,7 +27,7 @@
                     <footerH2>INFORMATION </footerH2>
                     <p><footerText>$SiteConfig.Information</footerText></p>
                 </div>
-                <div class="col-md-2 col-sm-12" style="margin-top:20px;">
+                <div class="col-md-2 col-sm-12 site-map" style="margin-top:20px;">
                     <footerH2>SITE MAP</footerH2>
                     <% loop $Menu(1) %>
                         <p><footerText> <a href="$Link" class="cbl footer">$MenuTitle.XML</a></footerText></p>

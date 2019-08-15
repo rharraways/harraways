@@ -132,7 +132,7 @@ body{
 
 a.footer
 {
-    text-transform: uppercase;
+  /*  text-transform: uppercase; */
 }
 
 
@@ -555,10 +555,11 @@ footerH2 {
     color: #1e2a63 !Important;
 }
 footerText {
-    font-size: 13px !important;
+    font-size: 13px;
     font-family: "Mr Eaves Mod Reg";
     color: #1e2a63 !Important;
     margin: 0 0 0px !important;
+    display: inline-block;
 }
 .contrast-high{
     color: green !important;
@@ -1163,6 +1164,14 @@ select#recipeCategory {
 }
 
 .footer-container footer {
-  background-size: 100% !important;
+  background-size: 100% 100%;
   background-position: bottom;
+}
+
+a.footer {
+  text-transform: inherit;
+}
+
+.site-map p {
+  height: 20px
 }
