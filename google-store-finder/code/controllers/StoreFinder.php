@@ -71,7 +71,7 @@ class StoreFinder_Controller extends Page_Controller {
 
 
         Requirements::customScript($script);
-        Requirements::javascript('https://maps.googleapis.com/maps/api/js?key=AIzaSyCKepMwiPTBsDWXpkYQKiDFH1fpgcInvlY');
+        Requirements::javascript('https://maps.googleapis.com/maps/api/js?key=AIzaSyBTTj-PlWzuNUIU3vHBTiTdS1TwvMxyyDM');
         Requirements::javascript('framework/thirdparty/jquery/jquery.js');
         Requirements::javascript('google-store-finder/javascript/store-finder.js');
 
