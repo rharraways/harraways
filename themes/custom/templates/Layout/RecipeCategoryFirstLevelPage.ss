@@ -35,9 +35,9 @@
                         <span> <a href="$Link" class=""><ampihanh1>$ShortTitle</ampihanh1></a></span>
                     </div>
                 </div>
-                $children_count = 0
+               
                 <% loop $children %>
-                    <% if $children_count <= 5 %>
+                    <% if Pos <= 5 %>
                         <div id="listPageRecipeImg" class="col-sm-12 col-lg-2 col-md-2  text-center">
                             <a href="$Link"> <img src="$PlaceHolderImage.CroppedImage(300,300).URL" class="img-fluid" style="margin-top:20px; " alt=""></a>
                             <p><a href="$Link" class="cbl fw6 "><MrEavesh5>$ShortTitle</MrEavesh5></a></p>
