@@ -111,17 +111,13 @@
 		<hr class="producePage"/>
 		<div class="col-md-custom-recipes">
 			<productTitle2 class="left">
-				<a target="_blank" href="//www.facebook.com/sharer.php?u=$AbsoluteLink" ><img src="$ThemeDir/images/facebook-icon.png" style="height:30px;" class="img-fluid" alt=""></a>
-				<a target="_blank" href="//twitter.com/share?text=$IngredientsTitle&url=https:$AbsoluteLink" ><img src="$ThemeDir/images/instagram-icon.png" style="margin-left:4px;height:30px;" class="img-fluid" alt=""></a>
-				SHARE THIS RECIPE
+				<a target="_blank" href="//www.facebook.com/sharer.php?u=$AbsoluteLink" ><img src="$ThemeDir/images/facebook-icon.png" style="height:30px;" class="img-fluid" alt=""><span class="recipe_icon_text">SHARE THIS RECIPE</span></a>
 			</productTitle2>
 		</div>
 		<div class="col-md-custom-recipes">
 			<productTitle2 class="right">
-				<a href="http://www.theharrydog.com//storefinder"><img src="themes/custom/images/storeloc.png" style="height:30px;" class="img-fluid" alt=""></a>
-				<span class="find-store">FIND STORE</span>
-				<a href="#" onClick=" window.print(); return false" ><img style="height:30px;"src="$ThemeDir/images/print-icon.png"></a>
-				PRINT RECIPE
+				<a href="http://www.theharrydog.com//storefinder"><img src="themes/custom/images/storeloc.png" style="height:30px;" class="img-fluid" alt=""><span class="recipe_icon_text">FIND STORE</span></a>
+				<a href="#" onClick=" window.print(); return false" ><img style="height:30px;"src="$ThemeDir/images/print-icon.png"><span class="recipe_icon_text">PRINT RECIPE</span></a>
 			</productTitle2>
 		</div>
 	</div>
