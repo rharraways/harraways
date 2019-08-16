@@ -111,8 +111,8 @@
 		<hr class="producePage"/>
 		<div class="col-md-custom-recipes">
 			<productTitle2 class="left">
-				<a target="_blank" href='//www.facebook.com/sharer.php?u=$AbsoluteLink' ><img src="$ThemeDir/images/facebook-icon.png" style="height:30px;" class="img-fluid" alt=""></a>
-				<a target="_blank" href="//twitter.com/share?text=$FeaturedVideoTitle&url=https:$AbsoluteLink" ><img src="$ThemeDir/images/instagram-icon.png" style="margin-left:4px;height:30px;" class="img-fluid" alt=""></a>
+				<a target="_blank" href="//www.facebook.com/sharer.php?u=$AbsoluteLink" ><img src="$ThemeDir/images/facebook-icon.png" style="height:30px;" class="img-fluid" alt=""></a>
+				<a target="_blank" href="//twitter.com/share?text=$IngredientsTitle&url=https:$AbsoluteLink" ><img src="$ThemeDir/images/instagram-icon.png" style="margin-left:4px;height:30px;" class="img-fluid" alt=""></a>
 				SHARE THIS RECIPE
 			</productTitle2>
 		</div>

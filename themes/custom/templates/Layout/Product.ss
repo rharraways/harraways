@@ -30,7 +30,7 @@
                           <productDesc>$Product.ProductMainDescription</productDesc>
 
                           <productTitle2>SHARE
-                              <a target="_blank" href="$SiteConfig.Facebook" ><img src="$ThemeDir/images/facebook-icon.png" style="margin-left:4px;height:30px;" class="img-fluid" alt=""></a>
+                              <a target="_blank" href="//www.facebook.com/sharer.php?u=$AbsoluteLink"><img src="$ThemeDir/images/facebook-icon.png" style="margin-left:4px;height:30px;" class="img-fluid" alt=""></a>
                               <a target="_blank" href="$SiteConfig.Instagram" ><img src="$ThemeDir/images/instagram-icon.png" style="margin-left:4px;height:30px;" class="img-fluid" alt=""></a>
 
                           <hr class="producePage"/></productTitle2>
