@@ -102,8 +102,7 @@ jQuery.noConflict();
 
 	$(document).on('click', '.display_more', function(event) {
 		event.preventDefault();
-	  	alert($(this).parent().parent().parent().attr('class'));
+	  	$(this).parent().parent().parent().find(".extra").show();
 	});
-
 
 }(jQuery));
