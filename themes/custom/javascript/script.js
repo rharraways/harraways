@@ -102,7 +102,7 @@ jQuery.noConflict();
 
 	$(document).on('click', '.display_more', function(event) {
 		event.preventDefault();
-	  	alert($(this).parent());
+	  	alert($(this).parent().parent().parent().class());
 	});
 
 
