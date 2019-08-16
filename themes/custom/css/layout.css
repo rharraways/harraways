@@ -1188,3 +1188,7 @@ a.footer {
 .extra {
   display: none;
 }
+
+.recipe_spacer {
+  height: 40px;
+}
