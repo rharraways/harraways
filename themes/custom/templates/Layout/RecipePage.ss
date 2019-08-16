@@ -118,6 +118,8 @@
 		</div>
 		<div class="col-md-custom-recipes">
 			<productTitle2 class="right">
+				<a href="http://www.theharrydog.com//storefinder"><img src="themes/custom/images/storeloc.png" style="height:30px;" class="img-fluid" alt=""></a>
+				<span class="find-store">FIND STORE</span>
 				<a href="#" onClick=" window.print(); return false" ><img style="height:30px;"src="$ThemeDir/images/print-icon.png"></a>
 				PRINT RECIPE
 			</productTitle2>
