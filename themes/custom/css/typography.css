@@ -82,7 +82,7 @@ body
 
 
 /* PARAGRAGHS */
-.typography  p { line-height: 25px; margin: 0 0 15px;   color: #1e2a63 !Important;}
+.typography  p { line-height: 15px; margin: 0 0 15px;   color: #1e2a63 !Important;}
   .typography .intro {
       font-family: 'Mr Eaves Mod OT', Helvetica, Arial, Sans-Serif;
       font-size: 22px;
