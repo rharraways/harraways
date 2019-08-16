@@ -103,6 +103,7 @@ jQuery.noConflict();
 	$(document).on('click', '.display_more', function(event) {
 		event.preventDefault();
 	  	$(this).parent().parent().parent().find(".extra").show();
+	  	$(this).parent().parent().remove();
 	});
 
 }(jQuery));
