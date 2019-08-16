@@ -1192,3 +1192,7 @@ a.footer {
 .recipe_spacer {
   height: 40px;
 }
+
+#listPageRecipeImg p {
+  line-height: 15px;
+}
