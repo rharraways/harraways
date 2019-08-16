@@ -148,7 +148,7 @@
 							<% end_loop %>
 						</div>
 						<div class="carousel-item row no-gutters">
-							<% loop $ListPageByType('Product') %>
+							<% loop $ListPageByType('RecipePage') %>
 								<% if $Pos =4 || $Pos =5 || $Pos =6 %>
 									<div class="col-4 float-left"><img class="img-fluid" src="$PlaceHolderImage.CroppedImage(225,277).URL">
 										<MrEavesh5><a href="$Link" class="cbl"> $ShortTitle </a></MrEavesh5>
