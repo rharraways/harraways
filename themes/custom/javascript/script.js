@@ -106,4 +106,8 @@ jQuery.noConflict();
 	  	$(this).parent().parent().remove();
 	});
 
+	$(".carousel-control-next").load(function(){
+	  	$(".carousel-control-next").attr('href', '#recipeCarousel');
+	});
+
 }(jQuery));
