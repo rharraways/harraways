@@ -10,6 +10,7 @@ jQuery.noConflict();
 			interval: 10000
 		})
 
+		$(".carousel-control-prev").attr('href', '#recipeCarousel');
 		$(".carousel-control-next").attr('href', '#recipeCarousel');
 
 		setNavigation();
