@@ -10,6 +10,8 @@ jQuery.noConflict();
 			interval: 10000
 		})
 
+		$(".carousel-control-next").attr('href', '#recipeCarousel');
+
 		setNavigation();
 
 		// When the user scrolls down 20px from the top of the document, show the button
@@ -104,10 +106,6 @@ jQuery.noConflict();
 		event.preventDefault();
 	  	$(this).parent().parent().parent().find(".extra").show();
 	  	$(this).parent().parent().remove();
-	});
-
-	$(".carousel-control-next").load(function(){
-	  	$(".carousel-control-next").attr('href', '#recipeCarousel');
 	});
 
 }(jQuery));
