@@ -129,5 +129,10 @@ class RecipePage extends Page
 class RecipePage_Controller extends Page_Controller
 {
 
+    public function init()
+    {
+        parent::init();
+        SSViewer::setRewriteHashLinksDefault(false);
+    }
 
 }
