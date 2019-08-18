@@ -45,6 +45,12 @@ class RecipePage extends Page
 
     );
 
+    protected function init()
+    {
+        parent::init();
+        SSViewer::setRewriteHashLinksDefault(false);
+    }
+
 
 
     public function getCMSFields()
