@@ -3942,3 +3942,6 @@
 
 })));
 //# sourceMappingURL=bootstrap.js.map
+$( document ).ready(function() {
+  $(".carousel-control-next").attr('href', '#recipeCarousel');
+});
