@@ -92,18 +92,19 @@ function searchLocations() {
 	var address  = document.getElementById("addressInput").value;
 	var geocoder = new google.maps.Geocoder();
 	var product =document.getElementById('productSelect').value;
+
+  console.log("searchLocations "+ address);
 	
 	geocoder.geocode({address: address}, function(results, status) {
 
 		if (status == google.maps.GeocoderStatus.OK && product !="noProductSelected" && address != " ") {
-
+      console.log("searchLocations "+ results[0].geometry.location);
 			searchLocationsNear(results[0].geometry.location,0,0,"useBoth");
 		} 
     	else if (status == google.maps.GeocoderStatus.OK) {
 			searchLocationsNear(results[0].geometry.location,0,0,"useAddress");
 		} 
 		else if(product !="noProductSelected") {
-
 			searchLocationsNear(null,0,0,"noAddress");
 		}
 		else if(product == "noProductSelected" && address == " " ){
@@ -128,7 +129,7 @@ function searchLocationsNear(center,lats,lngs,useCurrentLoc ) {
 
     if(useCurrentLoc == "useLocation")
     {
-    	   var lat = lats;
+    	 var lat = lats;
 		   var lng = lngs;
     }
     else if(useCurrentLoc == "useAddress" || useCurrentLoc == "useBoth")
