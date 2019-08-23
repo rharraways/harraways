@@ -53,9 +53,9 @@ class StoreFinder_Controller extends Page_Controller {
 
     public function init() {
         parent::init();
-        $startLat = isset($this->dataRecord->StartLat) ? $this->dataRecord->StartLat : 45.8788;
-        $startLong = isset($this->dataRecord->StartLong) ? $this->dataRecord->StartLong : 170.5028;
-        $startZoom = isset($this->dataRecord->StartZoom) ? $this->dataRecord->StartZoom : 0;
+        $startLat = isset($this->dataRecord->StartLat) ? $this->dataRecord->StartLat : -45.901990;
+        $startLong = isset($this->dataRecord->StartLong) ? $this->dataRecord->StartLong : 170.435420;
+        $startZoom = isset($this->dataRecord->StartZoom) ? $this->dataRecord->StartZoom : 15;
         $geoLocatedZoom = isset($this->dataRecord->GeolocatedZoom) ? $this->dataRecord->GeolocatedZoom : 0;
         $mapType = isset($this->dataRecord->MapType) ? strtoupper($this->dataRecord->MapType) : '';
 
