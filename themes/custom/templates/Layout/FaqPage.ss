@@ -6,12 +6,6 @@
                         <img style="margin-top:10px;width:100%;" src="$ThemeDir/images/leaf2.png" class="img-fluid" alt="">
                       </div>
                       <h1 class="text-uppercase">$ShortTitle</h1>
-
-                                           
-                      <div class="col-md-12 py-2">
-                      <input style="margin-bottom:10px;" type="button" class="btn bgbl text-uppercase fwb text-white w-100 fz18" onclick="location.href='$BaseHref/contact-us';" value="SEND US AN EMAIL" />
-                   
-                     </div>
                 </div>
               </div>
       </div>
