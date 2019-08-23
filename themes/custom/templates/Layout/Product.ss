@@ -30,10 +30,18 @@
                           <productDesc>$Product.ProductMainDescription</productDesc>
 
                           <productTitle2>SHARE
-                              <a target="_blank" href="//www.facebook.com/sharer.php?u=$AbsoluteLink"><img src="$ThemeDir/images/facebook-icon.png" style="margin-left:4px;height:30px;" class="img-fluid" alt=""></a>
-                              <a target="_blank" href="$SiteConfig.Instagram" ><img src="$ThemeDir/images/instagram-icon.png" style="margin-left:4px;height:30px;" class="img-fluid" alt=""></a>
+                              <div class="col-md-custom-recipes">
+      <productTitle2 class="left">
+        <a target="_blank" href="//www.facebook.com/sharer.php?u=$AbsoluteLink" ><img src="$ThemeDir/images/facebook-icon.png" style="height:30px;" class="img-fluid" alt=""><span class="recipe_icon_text">SHARE THIS RECIPE</span></a>
+      </productTitle2>
+    </div>
+    <div class="col-md-custom-recipes">
+      <productTitle2 class="right">
+        <a href="http://www.theharrydog.com//storefinder"><img src="themes/custom/images/storeloc.png" style="height:30px;" class="img-fluid" alt=""><span class="recipe_icon_text">FIND STORE</span></a>
+      </productTitle2>
 
-                          <hr class="producePage"/></productTitle2>
+                          </productTitle2>
+                          <hr class="producePage"/>
                       </div>
 
                      <!-- <h3 class="product-price-js">$Product.Price.Nice</h3> -->
