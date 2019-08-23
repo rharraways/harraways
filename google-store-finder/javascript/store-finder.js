@@ -102,6 +102,7 @@ function searchLocations() {
 			searchLocationsNear(results[0].geometry.location,0,0,"useBoth");
 		} 
     	else if (status == google.maps.GeocoderStatus.OK) {
+      console.log("searchLocations "+ results[0].geometry.location);
 			searchLocationsNear(results[0].geometry.location,0,0,"useAddress");
 		} 
 		else if(product !="noProductSelected") {
