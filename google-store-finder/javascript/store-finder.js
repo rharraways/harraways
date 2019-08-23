@@ -95,7 +95,7 @@ function searchLocations() {
 
   console.log("searchLocations "+ address);
 	
-	geocoder.geocode({address: address}, function(results, status) {
+	geocoder.geocode({address: address + " nz"}, function(results, status) {
 
 		if (status == google.maps.GeocoderStatus.OK && product !="noProductSelected" && address != " ") {
       console.log("searchLocations "+ results[0].geometry.location);
