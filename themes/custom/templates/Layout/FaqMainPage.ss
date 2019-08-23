@@ -29,19 +29,3 @@
      </div>
 
  </div>
-
-
- <div class="container">
-        <div class="row text-center justify-content-center py-7 cbl">
-          <div class="col-8 " style="margin-top:20px;">
-
-                 $Content
-             <div class="col-md-12 py-2">
-             <input style="margin-bottom:10px;" type="button" class="btn bgbl text-uppercase fwb text-white w-100 fz18" onclick="location.href='$BaseHref/contact-us';" value="SEND US AN EMAIL" />
-
-            </div>
-
-
-          </div>
-        </div>
-</div>
