@@ -160,6 +160,7 @@ function searchLocationsNear(center,lats,lngs,useCurrentLoc ) {
         var markerNodes = xml.documentElement.getElementsByTagName("marker");
 
         if(markerNodes.length > 0){
+          console.log("marker nodes"+ markerNodes.length);
             var bounds = new google.maps.LatLngBounds();
             for (var i = 0; i < markerNodes.length; i++) {
                 var productname = markerNodes[i].getAttribute("productname");
