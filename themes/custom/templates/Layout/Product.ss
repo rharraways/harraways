@@ -39,8 +39,7 @@
                             <productTitle2 class="right">
                               <a href="http://www.theharrydog.com//storefinder"><img src="themes/custom/images/storeloc.png" style="height:30px;" class="img-fluid" alt=""><span class="recipe_icon_text">FIND STORE</span></a>
                             </productTitle2>
-
-
+                          </div>
                           <hr class="producePage"/>
                       </div>
 
