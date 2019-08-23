@@ -53,12 +53,17 @@ class StoreFinder_Controller extends Page_Controller {
 
     public function init() {
         parent::init();
-        echo $this->dataRecord->StartLat;
-        $script = "var startLat = ".$this->dataRecord->StartLat.";\n";
-        $script .= "var startLong = ".$this->dataRecord->StartLong.";\n";
-        $script .= "var startZoom = ".$this->dataRecord->StartZoom.";\n";
-        $script .= "var geoLocatedZoom = ".strtoupper($this->dataRecord->GeolocatedZoom).";\n";
-        $script .= "var mapType = '".strtoupper($this->dataRecord->MapType)."';";
+        $startLat = isset($this->dataRecord->StartLat) ? $this->dataRecord->StartLat : 0;
+        $startLong = isset($this->dataRecord->StartLong) ? $this->dataRecord->StartLong : 0;
+        $startZoom = isset($this->dataRecord->StartZoom) ? $this->dataRecord->StartZoom : 0;
+        $geoLocatedZoom = isset($this->dataRecord->GeolocatedZoom) ? strtoupper($this->dataRecord->GeolocatedZoom) : '';
+        $mapType = isset($this->dataRecord->MapType) strtoupper($this->dataRecord->MapType) ? : '';
+
+        $script = "var startLat = ".$startLat.";\n";
+        $script .= "var startLong = ".$startLong.";\n";
+        $script .= "var startZoom = ".$startZoom.";\n";
+        $script .= "var geoLocatedZoom = ".$geoLocatedZoom.";\n";
+        $script .= "var mapType = '".$mapType."';";
 
 
         Requirements::customScript($script);
