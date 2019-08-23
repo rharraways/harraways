@@ -171,7 +171,7 @@ function searchLocationsNear(center,lats,lngs,useCurrentLoc ) {
                     parseFloat(markerNodes[i].getAttribute("lat")),
                     parseFloat(markerNodes[i].getAttribute("lng"))
                 );
-             
+                console.log("markers distance "+distance);
                 createOption(productname,storename,address, distance, i);
                 createMarker(latlng, storename, address);
                // bounds.extend(latlng);
@@ -192,7 +192,9 @@ function searchLocationsNear(center,lats,lngs,useCurrentLoc ) {
       //  Create a new viewpoint bound
       var bounds = new google.maps.LatLngBounds();
       //  Go through each...
-      for (var i = 0; i < markers.length; i++) {  
+      console.log("markers "+markers.length);
+      for (var i = 0; i < markers.length; i++) { 
+
                 bounds.extend(markers[i].position);
       }
       //  Fit these bounds to the map
