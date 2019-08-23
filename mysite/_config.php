@@ -24,7 +24,7 @@ SiteTree::enable_nested_urls();
 //for google map
 ShortcodeParser::get('default')->register('googlemap', function ($arguments, $address, $parser, $shortcode) {
     $iframeUrl = sprintf(
-        'http://maps.google.com/maps?q=%s&amp;hnear=%s&amp;ie=UTF8&hq=&amp;t=m&amp;z=14&amp;output=embed',
+        'https://maps.google.com/maps?q=%s&amp;hnear=%s&amp;ie=UTF8&hq=&amp;t=m&amp;z=14&amp;output=embed',
         urlencode($address),
         urlencode($address)
     );
