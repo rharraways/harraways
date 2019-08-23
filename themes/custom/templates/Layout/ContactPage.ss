@@ -45,15 +45,4 @@
  
 
 
-    <section class="MAP">
-      <div class="container-fluid p-0 m-0">
-        <div class="row m-0 p-0">
-          <div class="col-12 p-0">
-            $GoogleMapShortCode
-          </div>
-        </div>
-      </div>
-    </section>
-
-
 	
