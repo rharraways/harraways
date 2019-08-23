@@ -29,18 +29,18 @@
 
                           <productDesc>$Product.ProductMainDescription</productDesc>
 
-                          <productTitle2>SHARE
-                              <div class="col-md-custom-recipes">
-      <productTitle2 class="left">
-        <a target="_blank" href="//www.facebook.com/sharer.php?u=$AbsoluteLink" ><img src="$ThemeDir/images/facebook-icon.png" style="height:30px;" class="img-fluid" alt=""><span class="recipe_icon_text">SHARE THIS RECIPE</span></a>
-      </productTitle2>
-    </div>
-    <div class="col-md-custom-recipes">
-      <productTitle2 class="right">
-        <a href="http://www.theharrydog.com//storefinder"><img src="themes/custom/images/storeloc.png" style="height:30px;" class="img-fluid" alt=""><span class="recipe_icon_text">FIND STORE</span></a>
-      </productTitle2>
+                          
+                          <div class="col-md-custom-recipes">
+                            <productTitle2 class="left">
+                              <a target="_blank" href="//www.facebook.com/sharer.php?u=$AbsoluteLink" ><img src="$ThemeDir/images/facebook-icon.png" style="height:30px;" class="img-fluid" alt=""><span class="recipe_icon_text">SHARE THIS RECIPE</span></a>
+                            </productTitle2>
+                          </div>
+                          <div class="col-md-custom-recipes">
+                            <productTitle2 class="right">
+                              <a href="http://www.theharrydog.com//storefinder"><img src="themes/custom/images/storeloc.png" style="height:30px;" class="img-fluid" alt=""><span class="recipe_icon_text">FIND STORE</span></a>
+                            </productTitle2>
 
-                          </productTitle2>
+
                           <hr class="producePage"/>
                       </div>
 
