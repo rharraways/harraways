@@ -41,7 +41,7 @@
                             </productTitle2>
                           </div>
                       </div>
-                      <hr class="producePage"/>
+                      <hr class="producePage" style="margin-top: 35px;"/>
                      <!-- <h3 class="product-price-js">$Product.Price.Nice</h3> -->
                </div>
              <div class="col-md-3">
