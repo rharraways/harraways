@@ -25,6 +25,7 @@ class Product extends Page {
 		'Currency' => 'Varchar(3)',
 		'Display' => 'Boolean',
 		'ProductMainDescription' => 'HTMLText',
+		'NIP' => 'HTMLText',
 		'ProductMainHeaderDescription' => 'Text',
 		'ProductDescription' => 'HTMLText',
 		'DisplayAsFeatureProduct' =>'Boolean',
