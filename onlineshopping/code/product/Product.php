@@ -180,6 +180,7 @@ class Product extends Page {
 
 		$fields->addFieldToTab("Root.ProductDescription", TextField::create("ProductMainHeaderDescription", "Product Description Heading"));
         $fields->addFieldToTab("Root.ProductDescription", HTMLEditorField::create('ProductMainDescription','Product Main Description'));
+        $fields->addFieldToTab("Root.ProductDescription", HTMLEditorField::create("NIP", "Nutritional Information"));
        
         $fields->addFieldToTab("Root.ProductDescription", TextField::create('ProductDescription','Product Description Title'));
 
