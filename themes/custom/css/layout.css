@@ -110,7 +110,7 @@ a.text-blue.fab.fa-2x.fa-facebook-f {
 }
 body{
     background:#F1DBC2;
-    background-image: url("../images/background.jpg");
+    background:url(../images/bananacluster.png) center top no-repeat,url("../images/background.jpg") center top;
     min-width:350px;
     width: auto !important;
     width:350px;
