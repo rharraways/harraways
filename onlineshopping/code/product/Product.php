@@ -27,6 +27,7 @@ class Product extends Page {
 		'ProductMainDescription' => 'HTMLText',
 		'ProductMainHeaderDescription' => 'Text',
 		'ProductDescription' => 'HTMLText',
+		'NIP' => 'HTMLText',
 		'DisplayAsFeatureProduct' =>'Boolean',
 		'ShortTitle' => 'Varchar(250)',
 		
