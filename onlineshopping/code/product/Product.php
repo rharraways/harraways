@@ -27,7 +27,7 @@ class Product extends Page {
 		'ProductMainDescription' => 'HTMLText',
 		'ProductMainHeaderDescription' => 'Text',
 		'ProductDescription' => 'HTMLText',
-		'NIP' => 'HTMLText',
+		'NutritionalInfomationPanel' => 'HTMLText',
 		'DisplayAsFeatureProduct' =>'Boolean',
 		'ShortTitle' => 'Varchar(250)',
 		
@@ -181,7 +181,7 @@ class Product extends Page {
 
 		$fields->addFieldToTab("Root.ProductDescription", TextField::create("ProductMainHeaderDescription", "Product Description Heading"));
         $fields->addFieldToTab("Root.ProductDescription", HTMLEditorField::create('ProductMainDescription','Product Main Description'));
-        $fields->addFieldToTab("Root.ProductDescription", HTMLEditorField::create("NIP", "Nutritional Information"));
+        $fields->addFieldToTab("Root.ProductDescription", HTMLEditorField::create("NutritionalInfomationPanel", "Nutritional Information Panel"));
        
         $fields->addFieldToTab("Root.ProductDescription", TextField::create('ProductDescription','Product Description Title'));
 
