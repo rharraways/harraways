@@ -863,7 +863,7 @@ footer {
     width: 100%;
     bottom: 0;
     width: 100%;
-    background-image: url(../images/honey.png) center top no-repeat,url(../images/footer.jpg) center top;;
+    background-image: url(../images/honey.png) center bottom no-repeat,url(../images/footer_background.jpg) center bottom;
     background-size: 100% 100%;
 }
 .recipecontainer .btnR {
