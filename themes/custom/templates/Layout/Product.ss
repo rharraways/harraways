@@ -57,7 +57,7 @@
 
                  <% end_loop %>
              </div>
-             <productDesc>$Product.NutritionalInformationPanel</productDesc>
+             <productNIP>$Product.NutritionalInformationPanel</productNIP>
 
        </div>
      </div>
