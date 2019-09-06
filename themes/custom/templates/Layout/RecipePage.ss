@@ -116,7 +116,7 @@
 		</div>
 		<div class="col-md-custom-recipes">
 			<productTitle2 class="right">
-				<a href="http://www.theharrydog.com//storefinder"><img src="themes/custom/images/storeloc.png" style="height:30px;" class="img-fluid" alt=""><span class="recipe_icon_text">FIND STORE</span></a>
+				<a href="https://www.theharrydog.com//storefinder"><img src="themes/custom/images/storeloc.png" style="height:30px;" class="img-fluid" alt=""><span class="recipe_icon_text">FIND STORE</span></a>
 				<a href="#" onClick=" window.print(); return false" ><img style="height:30px;"src="$ThemeDir/images/print-icon.png"><span class="recipe_icon_text">PRINT RECIPE</span></a>
 			</productTitle2>
 		</div>
