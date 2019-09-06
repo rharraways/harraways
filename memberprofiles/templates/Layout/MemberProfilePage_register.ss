@@ -19,7 +19,7 @@
 			
 			   <div class="conainer">  
 			     <div class="row">  
-		                 <div style="margin-bottom:25px;" class="col-md-6 col-centered text-center bgelg">
+		                 <div style="margin-bottom:25px;" class="col-md-6 col-centered text-center">
                             <div class="row">
                                  <div  id="logins"  class="col-md-6 activetab float-md-right">
                                     <h3> <a href="#" class="tablinks" onclick="openC(event, 'login')"><%t MemberProfiles.LOGINHEADER "Log in" %></a></h3> 
