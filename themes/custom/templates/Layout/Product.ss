@@ -57,7 +57,7 @@
 
                  <% end_loop %>
              </div>
-
+             <productDesc>$Product.NutritionalInformationPanel</productDesc>
 
        </div>
      </div>
