@@ -22,7 +22,7 @@ form label {
     margin-bottom: 5px;
 }
 form label.left {
-    display: none;
+    /*display: none;*/
     font-weight: bold;
 }
 form label.right {

@@ -80,9 +80,7 @@ class MemberLoginForm extends LoginForm {
 					HiddenField::create("AuthenticationMethod", null, $this->authenticator_class, $this),
 					// Regardless of what the unique identifer field is (usually 'Email'), it will be held in the
 					// 'Email' value, below:
-					ReadonlyField::create("EmailLabel", "Label", "Email"),
 					$emailField = TextField::create("Email", $label, null, null, $this),
-					ReadonlyField::create("PasswordLabel", "Label", "Password"),
 					PasswordField::create("Password", _t('Member.PASSWORD', 'Password'))
 				);
 				if(Security::config()->remember_username) {
