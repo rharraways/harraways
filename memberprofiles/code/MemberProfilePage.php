@@ -513,6 +513,7 @@ class MemberProfilePage_Controller extends Page_Controller {
 			'RegisterForm',
 			$this->getProfileFields('Registration'),
 			new FieldList(
+
 				new FormAction('register', _t('MemberProfiles.REGISTER', 'Register'))
 			),
 			new MemberProfileValidator($this->Fields())
@@ -904,7 +905,7 @@ class MemberProfilePage_Controller extends Page_Controller {
 				   $this->AllowProfileViewing
 				&& $profileField->PublicVisibility != 'Hidden'
 			);
-			if ($canSetVisibility) {
+			/*if ($canSetVisibility) {
 				$field = new CheckableVisibilityField($field);
 
 				if ($profileField->PublicVisibility == 'Display') {
@@ -912,7 +913,7 @@ class MemberProfilePage_Controller extends Page_Controller {
 				} else {
 					$field->getCheckbox()->setValue($profileField->PublicVisibilityDefault);
 				}
-			}
+			}*/
 
 			$fields->push($field);
 		}
