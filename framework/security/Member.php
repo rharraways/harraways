@@ -807,9 +807,14 @@ class Member extends DataObject implements TemplateGlobalProvider {
 	 *                   the member form.
 	 */
 	public function getMemberFormFields() {
+
 		$fields = parent::getFrontendFields();
 
 		$fields->replaceField('Password', $this->getMemberPasswordField());
+		$pass_fields = $fields->dataFieldByName('Password');
+
+		$pass_fields->setAttribute('placeholder', $profileField->Title);
+
 
 		$fields->replaceField('Locale', new DropdownField (
 			'Locale',
