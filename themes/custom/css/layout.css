@@ -647,6 +647,12 @@ productNIP {
   margin-right: auto;
 }
 
+productNIP > p{
+    color: #1e2a63 !Important;
+    font-size: 16px !important;
+    font-family: "Mr Eaves Mod Reg";
+}
+
 productampihan
 {
     font-family: "ampihan reg";
