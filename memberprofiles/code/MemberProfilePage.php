@@ -890,7 +890,7 @@ class MemberProfilePage_Controller extends Page_Controller {
 				$field = $field->performReadonlyTransformation();
 			}
 
-			$field->setTitle($profileField->Title);
+			$field->setValue($profileField->Title);
 			$field->setDescription($profileField->Note);
 
 			if($context == 'Registration' && $profileField->DefaultValue) {
