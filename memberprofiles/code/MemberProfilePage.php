@@ -919,7 +919,14 @@ class MemberProfilePage_Controller extends Page_Controller {
 		}
 
 		/* Adding custom fields */
-		$fields->insertBefore(TextField::create("Phone", "Phone Number", null, null, null), $fields->dataFieldByName('Password'));
+
+		$fields->push(TextField::create("Phone", "Phone Number", null, null, null));
+		$phone_field = $fields->dataFieldByName('Phone');
+		$phone_field->setAttribute('placeholder', "Phone Number");
+
+		$fields->push(TextField::create("Country", "Country", null, null, null));
+		$country_field = $fields->dataFieldByName('Country');
+		$country_field->setAttribute('placeholder', "Country");
 
 		$this->extend('updateProfileFields', $fields);
 		return $fields;

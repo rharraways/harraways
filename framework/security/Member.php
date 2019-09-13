@@ -822,6 +822,7 @@ class Member extends DataObject implements TemplateGlobalProvider {
 		$fields->removeByName('LastVisited');
 		$fields->removeByName('FailedLoginCount');
 
+
 		$this->extend('updateMemberFormFields', $fields);
 		return $fields;
 	}
