@@ -919,8 +919,7 @@ class MemberProfilePage_Controller extends Page_Controller {
 		}
 
 		/* Adding custom fields */
-
-		$fields->push(TextField::create("Phone", "Phone Number", null, null, null));
+		$fields->insertBefore(TextField::create("Phone", "Phone Number", null, null, null), $fields->dataFieldByName('Password'));
 
 		$this->extend('updateProfileFields', $fields);
 		return $fields;
