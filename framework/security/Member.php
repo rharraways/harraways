@@ -822,7 +822,6 @@ class Member extends DataObject implements TemplateGlobalProvider {
 		$fields->removeByName('LastVisited');
 		$fields->removeByName('FailedLoginCount');
 
-		$fields->push(TextField::create("text", "Phone Number", null, null, null);
 
 		$this->extend('updateMemberFormFields', $fields);
 		return $fields;
