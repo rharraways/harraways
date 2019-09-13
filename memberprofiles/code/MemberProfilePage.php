@@ -928,6 +928,14 @@ class MemberProfilePage_Controller extends Page_Controller {
 		$country_field = $fields->dataFieldByName('Country');
 		$country_field->setAttribute('placeholder', "Country");
 
+		$fields->push(TextField::create("CompanyName", "Company Name", null, null, null));
+		$companyname_field = $fields->dataFieldByName('CompanyName');
+		$companyname_field->setAttribute('placeholder', "CompanyName");
+
+		$fields->push(TextareaField::create("CompanyDetails", "Company Details", null, null, null));
+		$companydetails_field = $fields->dataFieldByName('CompanyDetails');
+		$companydetails_field->setAttribute('placeholder', "Please let us know why you are inquiring and so details about your company.");
+
 		$this->extend('updateProfileFields', $fields);
 		return $fields;
 	}
