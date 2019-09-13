@@ -207,8 +207,9 @@ form .date .middleColumn input {
 
 /* Labels */
 .checkbox label.right {
-    font-size: 13px;                            /* reset to default */
+    font-size: 100%;                            /* reset to default */
     color: #333;                                /* reset to default */
+    font-weight: bold;
 }
 form .requiredField label.left:after { /* pseudo element adds an asterisk to a required fields label */
     color: #B94A48;
@@ -309,4 +310,9 @@ form #DMYDate-day {
 
 @media only screen and (min-width: 700px) { 
 
+}
+
+
+#Form_RegisterForm textarea {
+    height: 180px;
 }
