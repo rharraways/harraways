@@ -918,6 +918,10 @@ class MemberProfilePage_Controller extends Page_Controller {
 			$fields->push($field);
 		}
 
+		/* Adding custom fields */
+
+		$fields->push(TextField::create("Phone", "Phone Number", null, null, null));
+
 		$this->extend('updateProfileFields', $fields);
 		return $fields;
 	}
