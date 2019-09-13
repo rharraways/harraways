@@ -316,3 +316,7 @@ form #DMYDate-day {
 #Form_RegisterForm textarea {
     height: 180px;
 }
+
+a.tablinks.active {
+    text-decoration: underline;
+}

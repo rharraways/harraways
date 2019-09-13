@@ -32,22 +32,16 @@
 				
                                  </div>
 			              </div>					  	 				  
-						  <div class="col-md-12">
-				              <div id="login" class="tabcontent">
-				                        <p>If you already have an account, you can login in below</p>
-
-	                                      $LoginForm
-							  
-							     </div>
-
-
+						<div class="col-md-12">
+				            <div id="login" class="tabcontent">
+				                <!--<p>If you already have an account, you can login in below</p>-->
+	                            $LoginForm
+							</div>
 							<div id="register" class="tabcontent">
-							  <h2><%t MemberProfiles.REGISTER "Register" %></h2> 
+							  	<!--<h2><%t MemberProfiles.REGISTER "Register" %></h2> -->
 								  $Form
 							</div>
-				       
-
-				          </div>
+				        </div>
 			      
 			  </div>
 				
