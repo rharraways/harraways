@@ -811,10 +811,6 @@ class Member extends DataObject implements TemplateGlobalProvider {
 		$fields = parent::getFrontendFields();
 
 		$fields->replaceField('Password', $this->getMemberPasswordField());
-		$pass_fields = $fields->dataFieldByName('Password');
-
-		$pass_fields->setAttribute('placeholder', $profileField->Title);
-
 
 		$fields->replaceField('Locale', new DropdownField (
 			'Locale',
@@ -826,6 +822,8 @@ class Member extends DataObject implements TemplateGlobalProvider {
 		$fields->removeByName('LastVisited');
 		$fields->removeByName('FailedLoginCount');
 
+		$phone_field = $fields->push(TextField::create("text", "Phone Number", null, null, null);
+		$phone_field->setAttribute('placeholder', 'Phone Number');
 
 		$this->extend('updateMemberFormFields', $fields);
 		return $fields;
