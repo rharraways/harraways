@@ -936,7 +936,7 @@ class MemberProfilePage_Controller extends Page_Controller {
 		$companydetails_field = $fields->dataFieldByName('CompanyDetails');
 		$companydetails_field->setAttribute('placeholder', "Please let us know why you are inquiring and so details about your company.");
 
-		$fields->push(TextField::create("SalesAccount", "Sale Account", null, null, null));
+		$fields->push(CheckboxField::create("SalesAccount", "Sale Account", null, null, null));
 		$saleaccount_field = $fields->dataFieldByName('SalesAccount');
 		$saleaccount_field->setAttribute('placeholder', "SalesAccount");
 
