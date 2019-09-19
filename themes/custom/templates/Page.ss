@@ -26,6 +26,16 @@
 		<![endif]-->
 
 		<% require themedCSS('bootstrap.min') %>
+
+		<link rel="shortcut icon" href="$ThemeDir/images/favicon.ico" />
+		<link rel="stylesheet" href="{$ThemeDir}/css/bootstrap.css" />
+		<link rel="stylesheet" href="{$ThemeDir}/css/jquery.fancybox.min.css" />
+		<script type="text/javascript" src="{$ThemeDir}/javascript/jquery-3.4.0.js"></script>
+
+		<link rel="stylesheet" href="{$ThemeDir}/css/jquery.fancybox.css?v=2.1.7" type="text/css" media="screen" />
+		<script type="text/javascript" src="{$ThemeDir}/javascript/jquery.fancybox.js"></script>
+		<script type="text/javascript" src="{$ThemeDir}/javascript/bootstrap.min.js"></script>
+		<script type="text/javascript" src="{$ThemeDir}/javascript/script.js"></script>
 		<script>
         var isMobile = false; //initiate as false
         // device detection
@@ -47,16 +57,6 @@
           <% require themedCSS('responsive') %>
         }
       </script>
-
-		<link rel="shortcut icon" href="$ThemeDir/images/favicon.ico" />
-		<link rel="stylesheet" href="{$ThemeDir}/css/bootstrap.css" />
-		<link rel="stylesheet" href="{$ThemeDir}/css/jquery.fancybox.min.css" />
-		<script type="text/javascript" src="{$ThemeDir}/javascript/jquery-3.4.0.js"></script>
-
-		<link rel="stylesheet" href="{$ThemeDir}/css/jquery.fancybox.css?v=2.1.7" type="text/css" media="screen" />
-		<script type="text/javascript" src="{$ThemeDir}/javascript/jquery.fancybox.js"></script>
-		<script type="text/javascript" src="{$ThemeDir}/javascript/bootstrap.min.js"></script>
-		<script type="text/javascript" src="{$ThemeDir}/javascript/script.js"></script>
 
 	</head>
 <body>
