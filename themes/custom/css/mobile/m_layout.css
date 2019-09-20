@@ -1,0 +1,8 @@
+div > #SearchForm_SearchForm {
+    display: none;
+}
+
+div > .navbar-brand {
+    width: 100%;
+    max-width: 50%;
+}
