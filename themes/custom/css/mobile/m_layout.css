@@ -68,7 +68,8 @@
 	max-height: 0px;
 }
 
-.navbar .navbar-inner-container .navbar-collapse .dropdown-content:hover {
+.navbar .navbar-inner-container .nav-link:hover .dropdown-content,
+.navbar .navbar-inner-container .nav-link:active .dropdown-content {
     max-height: fit-content;
 }
 
