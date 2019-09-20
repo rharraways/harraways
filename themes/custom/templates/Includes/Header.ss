@@ -2,11 +2,11 @@
     <header>
         <div style="margin-top:20px;" class="row cbl py-12 flex-lg-row ">
 
-            <div class="col-md-3  col-5 order-md-1 order-1">
+            <div class="col-md-3  col-5 order-md-1 order-1 navbar-brand-container">
                 <a class="navbar-brand" href="$BaseHref/Home" id="logo"><img src="$ThemeDir/images/logo3.png"  style="width:100%;" alt=""></a>
             </div>
 
-            <div class="col-md-5 order-md-2 col-12 offset-md-4   order-3" style="">
+            <div class="col-md-5 order-md-2 col-12 offset-md-4 order-3 searchform-container" style="">
 
                 <form id="SearchForm_SearchForm"  method="get" action="/home/SearchForm?Search=" class="form-inline my-2 my-lg-0 justify-content-center">
 
@@ -18,7 +18,7 @@
             </div>
 
 
-            <div class="col-md-12  col-5 order-md-3 order-2">
+            <div class="col-md-12  col-5 order-md-3 order-2 navbar-container">
                 <nav class=" navbar navbar-expand-xl navbar-light" style="margin-top:-5px;">
                     <div class="">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

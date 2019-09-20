@@ -1,8 +1,13 @@
-div > #SearchForm_SearchForm {
+.searchform-container {
     display: none;
 }
 
-div > .navbar-brand {
+.navbar-brand-container {
     width: 100%;
+    max-width: 50%;
+}
+
+.navbar-container {
+	width: 100%;
     max-width: 50%;
 }
