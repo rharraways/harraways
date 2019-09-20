@@ -25,7 +25,8 @@
 
 .navbar .navbar-inner-container {
 	padding-top: 30px;
-	height: 50px;
+	padding-bottom: 30px;
+	height: auto;
     width: 100%;
 }
 
@@ -38,6 +39,18 @@
 .navbar .navbar-inner-container .navbar-collapse {
 	clear: both;
     padding-top: 40px;
+}
+
+.navbar .navbar-inner-container .navbar-collapse .navbar-nav {
+	margin-left: 0px !important;
+}
+
+.navbar .navbar-inner-container .navbar-collapse .navbar-nav .parent a {
+	font-size: 25px;
+}
+
+.navbar .navbar-inner-container .navbar-collapse .dropdown-content {
+    width: 100%;
 }
 
 /* Banner image on home page */
