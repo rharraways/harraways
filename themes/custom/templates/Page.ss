@@ -9,7 +9,7 @@
 <!--[if IE 8 ]><html lang="$ContentLocale" class="ie ie8"><![endif]-->
 <head>
 	<% base_tag %>
-	<head>
+	
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -52,7 +52,7 @@
 	        }
       </script>
 
-	</head>
+</head>
 <body>
 <% include Header %>
 <button onclick="topFunction()" id="myBtn" title="Go to top">&uarr;</button>
