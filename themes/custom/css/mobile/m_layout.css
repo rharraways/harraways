@@ -63,6 +63,13 @@
 
 .navbar .navbar-inner-container .navbar-collapse .dropdown-content {
     width: 100%;
+    box-shadow: none;
+	position: unset;
+	max-height: 0px;
+}
+
+.navbar .navbar-inner-container .navbar-collapse .dropdown-content:hover {
+    max-height: fit-content;
 }
 
 /* Banner image on home page */
