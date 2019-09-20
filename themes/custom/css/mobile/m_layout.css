@@ -9,6 +9,10 @@
 
 }
 
+.navbar-brand-container .navbar-brand {
+	height: auto !important; 
+}
+
 .navbar-container {
 	max-width: 50% !important;
     flex: none !important;
@@ -24,9 +28,6 @@
 }
 
 /* Banner image on home page */
-.header-container {
-	padding-top: 50px;
-}
 /* Makes the Banner container an aspect ratio of 1:1 (width always the size of the page) */
 .header-container #textoverimage {
 	width: 100%;
