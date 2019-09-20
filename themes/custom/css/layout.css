@@ -1097,7 +1097,7 @@ select#recipeCategory {
     }
     .navbar {
 
-        float: right !important;
+        /*float: right !important;*/
     }
 }
 .carousel-control-prev-icon {
