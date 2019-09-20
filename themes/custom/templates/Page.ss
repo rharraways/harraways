@@ -45,10 +45,29 @@
 		<script>
 	        // device detection
 	        if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) { 
-	          console.log('css mobile');
-	          document.getElementsByTagName("head")[0].appendChild('<link rel="stylesheet" type="text/css" href="{$ThemeDir}/css/mobile/m_typography.css">');
-	          document.getElementsByTagName("head")[0].appendChild('<link rel="stylesheet" type="text/css" href="{$ThemeDir}/css/mobile/m_form.css">');
-	          document.getElementsByTagName("head")[0].appendChild('<link rel="stylesheet" type="text/css" href="{$ThemeDir}/css/mobile/m_layout.css">');
+	          	console.log('css mobile');
+	          	// Get HTML head element 
+		        var head = document.getElementsByTagName('HEAD')[0];  
+		        // Create new link Element 
+		        var link = document.createElement('link'); 
+		        // set the attributes for link element  
+		        link.rel = 'stylesheet';  
+		        link.type = 'text/css'; 
+		        link.href = '{$ThemeDir}/css/mobile/m_typography.css';
+		        // Append link element to HTML head 
+        		head.appendChild(link);
+        		// set the attributes for link element  
+		        link.rel = 'stylesheet';  
+		        link.type = 'text/css'; 
+		        link.href = '{$ThemeDir}/css/mobile/m_form.css';
+		        // Append link element to HTML head 
+        		head.appendChild(link);
+        		// set the attributes for link element  
+		        link.rel = 'stylesheet';  
+		        link.type = 'text/css'; 
+		        link.href = '{$ThemeDir}/css/mobile/m_layout.css';
+		        // Append link element to HTML head 
+        		head.appendChild(link);
 	        }
       </script>
 
