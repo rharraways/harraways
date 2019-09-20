@@ -46,9 +46,9 @@
 	        // device detection
 	        if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) { 
 	          console.log('css mobile');
-	          $('head').append('<link rel="stylesheet" type="text/css" href="/themes/custom/css/mobile/m_typography.css">');
-	          $('head').append('<link rel="stylesheet" type="text/css" href="/themes/custom/css/mobile/m_form.css">');
-	          $('head').append('<link rel="stylesheet" type="text/css" href="/themes/custom/css/mobile/m_layout.css">');
+	          document.getElementsByTagName('head')[0].appendChild('<link rel="stylesheet" type="text/css" href="{$ThemeDir}/css/mobile/m_typography.css">');
+	          document.getElementsByTagName('head')[0].appendChild('<link rel="stylesheet" type="text/css" href="{$ThemeDir}/css/mobile/m_form.css">');
+	          document.getElementsByTagName('head')[0].appendChild('<link rel="stylesheet" type="text/css" href="{$ThemeDir}/css/mobile/m_layout.css">');
 	        }
       </script>
 
