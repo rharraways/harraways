@@ -6,7 +6,7 @@
     max-width: 50% !important;
     flex: none !important;
     height: fit-content;
-
+    position: absolute !important;
 }
 
 .navbar-brand-container .navbar-brand {
@@ -14,7 +14,7 @@
 }
 
 .navbar-container {
-	max-width: 50% !important;
+	max-width: 100% !important;
     flex: none !important;
 }
 
@@ -23,8 +23,21 @@
     margin-right: 12px;
 }
 
-.navbar-toggler {
+.navbar .navbar-inner-container {
+	padding-top: 30px;
+	height: 50px;
+    width: 100%;
+}
+
+.navbar .navbar-inner-container .navbar-toggler {
+	height: 57px;
+    width: 57px;
+	float: right;
+}
+
+.navbar .navbar-inner-container .navbar-collapse {
 	clear: both;
+    padding-top: 40px;
 }
 
 /* Banner image on home page */

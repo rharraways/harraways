@@ -20,7 +20,7 @@
 
             <div class="col-md-12  col-5 order-md-3 order-2 navbar-container">
                 <nav class=" navbar navbar-expand-xl navbar-light" style="margin-top:-5px;">
-                    <div class="">
+                    <div class="navbar-inner-container">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
