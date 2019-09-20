@@ -9,7 +9,7 @@
 <!--[if IE 8 ]><html lang="$ContentLocale" class="ie ie8"><![endif]-->
 <head>
 	<% base_tag %>
-	
+
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -46,9 +46,9 @@
 	        // device detection
 	        if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) { 
 	          console.log('css mobile');
-	          document.getElementsByTagName('head')[0].appendChild('<link rel="stylesheet" type="text/css" href="{$ThemeDir}/css/mobile/m_typography.css">');
-	          document.getElementsByTagName('head')[0].appendChild('<link rel="stylesheet" type="text/css" href="{$ThemeDir}/css/mobile/m_form.css">');
-	          document.getElementsByTagName('head')[0].appendChild('<link rel="stylesheet" type="text/css" href="{$ThemeDir}/css/mobile/m_layout.css">');
+	          document.getElementsByTagName("head")[0].appendChild('<link rel="stylesheet" type="text/css" href="{$ThemeDir}/css/mobile/m_typography.css">');
+	          document.getElementsByTagName("head")[0].appendChild('<link rel="stylesheet" type="text/css" href="{$ThemeDir}/css/mobile/m_form.css">');
+	          document.getElementsByTagName("head")[0].appendChild('<link rel="stylesheet" type="text/css" href="{$ThemeDir}/css/mobile/m_layout.css">');
 	        }
       </script>
 
