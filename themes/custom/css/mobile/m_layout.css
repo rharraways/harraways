@@ -57,6 +57,10 @@
 	font-size: 25px;
 }
 
+.navbar .navbar-inner-container .navbar-collapse .navbar-nav .parent a:hover {
+	text-decoration: none;
+}
+
 .navbar .navbar-inner-container .navbar-collapse .dropdown-content {
     width: 100%;
 }
