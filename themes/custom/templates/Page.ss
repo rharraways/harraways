@@ -26,11 +26,6 @@
 		<![endif]-->
 
 		<% require themedCSS('bootstrap.min') %>
-		<% require themedCSS('reset') %>
-	    <% require themedCSS('typography') %>
-	    <% require themedCSS('form') %>
-	    <% require themedCSS('layout') %>
-	    <% require themedCSS('responsive') %>
 
 		<link rel="shortcut icon" href="$ThemeDir/images/favicon.ico" />
 		<link rel="stylesheet" href="{$ThemeDir}/css/bootstrap.css" />
@@ -48,6 +43,11 @@
 	        } 
 	        else {
 	          console.log('css desktop');
+	          	<% require themedCSS('reset') %>
+			    <% require themedCSS('typography') %>
+			    <% require themedCSS('form') %>
+			    <% require themedCSS('layout') %>
+			    <% require themedCSS('responsive') %>
 	        }
       </script>
 
