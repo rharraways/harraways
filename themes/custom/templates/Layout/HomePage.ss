@@ -1,6 +1,6 @@
 <section>
 
-     <div class="container header-container">
+     <div class="container banner-container">
             <div class="row text-center cbl py-12 flex-lg-row ">
                     <div class="col-md-12" style="margin-bottom:30px;" >
                                <div id="textoverimage" class="container">
