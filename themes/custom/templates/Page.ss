@@ -43,11 +43,7 @@
 	        } 
 	        else {
 	          console.log('css desktop');
-	          	<% require themedCSS('reset') %>
-			    <% require themedCSS('typography') %>
-			    <% require themedCSS('form') %>
-			    <% require themedCSS('layout') %>
-			    <% require themedCSS('responsive') %>
+	          
 	        }
       </script>
 
