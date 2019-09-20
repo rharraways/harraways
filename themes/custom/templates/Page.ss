@@ -26,6 +26,12 @@
 		<![endif]-->
 
 		<% require themedCSS('bootstrap.min') %>
+		<% require themedCSS('reset') %>
+		<% require themedCSS('typography') %>
+		<% require themedCSS('form') %>
+		<% require themedCSS('layout') %>
+		<% require themedCSS('responsive') %>
+			
 
 		<link rel="shortcut icon" href="$ThemeDir/images/favicon.ico" />
 		<link rel="stylesheet" href="{$ThemeDir}/css/bootstrap.css" />
@@ -40,10 +46,9 @@
 	        // device detection
 	        if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) { 
 	          console.log('css mobile');
-	        } 
-	        else {
-	          console.log('css desktop');
-	          
+	          $('head').append('<link rel="stylesheet" type="text/css" href="/themes/custom/css/mobile/m_typography.css">');
+	          $('head').append('<link rel="stylesheet" type="text/css" href="/themes/custom/css/mobile/m_form.css">');
+	          $('head').append('<link rel="stylesheet" type="text/css" href="/themes/custom/css/mobile/m_layout.css">');
 	        }
       </script>
 
