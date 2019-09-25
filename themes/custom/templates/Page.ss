@@ -50,6 +50,8 @@
 		        var head = document.getElementsByTagName('HEAD')[0];  
 		        // Create new link Element 
 		        var link = document.createElement('link'); 
+		        // Create new script Element 
+		        var script = document.createElement('script'); 
 		        // set the attributes for link element  
 		        link.rel = 'stylesheet';  
 		        link.type = 'text/css'; 
@@ -67,12 +69,12 @@
 		        link.type = 'text/css'; 
 		        link.href = '{$ThemeDir}/css/mobile/m_layout.css';
 		        // Append link Script to HTML head 
-        		head.appendChild(link);
+        		head.appendChild(script);
         		// set the attributes for link element    
-		        link.type = 'text/javascript'; 
-		        link.src = '{$ThemeDir}/js/mobile.js';
+		        script.type = 'text/javascript'; 
+		        script.src = '{$ThemeDir}/js/mobile.js';
 		        // Append link element to HTML head 
-        		head.appendChild(link);
+        		head.appendChild(script);
 	        }
       </script>
 
