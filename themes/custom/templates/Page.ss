@@ -72,7 +72,7 @@
         		head.appendChild(script);
         		// set the attributes for link element    
 		        script.type = 'text/javascript'; 
-		        script.src = '{$ThemeDir}/js/mobile.js';
+		        script.src = '{$ThemeDir}/javascript/mobile.js';
 		        // Append link element to HTML head 
         		head.appendChild(script);
 	        }
