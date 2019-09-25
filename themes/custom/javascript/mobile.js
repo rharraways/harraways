@@ -1,5 +1,10 @@
 ;(function($) { 
 	$('.dropdown').click(function(event){
-		$(this).find(".dropdown-content").toggle();
+		function() {
+		    $(this).find(".dropdown-content").animate({height: 0}, 400);
+		},
+		function() {
+		    $(this).find(".dropdown-content").animate({height: 'auto'}, 400);
+		}
 	});
 })(jQuery);
