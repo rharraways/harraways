@@ -1,6 +1,6 @@
 ;(function($) { 
 	$('.dropdown').click(function(event){
-		$(this).find(".dropdown-content").toggle( "slow", function() {
+		$(this).find(".dropdown-content").slidetoggle( "slow", function() {
     // Animation complete.
   });
 	});
