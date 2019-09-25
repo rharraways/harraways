@@ -66,6 +66,11 @@
 		        link.rel = 'stylesheet';  
 		        link.type = 'text/css'; 
 		        link.href = '{$ThemeDir}/css/mobile/m_layout.css';
+		        // Append link Script to HTML head 
+        		head.appendChild(link);
+        		// set the attributes for link element    
+		        link.type = 'text/javascript'; 
+		        link.src = '{$ThemeDir}/js/mobile.js';
 		        // Append link element to HTML head 
         		head.appendChild(link);
 	        }

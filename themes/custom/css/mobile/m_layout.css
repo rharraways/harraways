@@ -30,7 +30,6 @@
 }
 
 .navbar .navbar-inner-container {
-	padding-top: 30px;
 	padding-bottom: 30px;
 	height: auto;
     width: 100%;
@@ -42,6 +41,8 @@
 	float: right;
 	margin-right: 5%;
     border: 0px !important;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 .navbar .navbar-inner-container .navbar-collapse {
@@ -65,13 +66,8 @@
     width: 100%;
     box-shadow: none;
 	position: unset;
-	max-height: 0px;
 }
 
-.navbar .navbar-inner-container .nav-link:hover .dropdown-content,
-.navbar .navbar-inner-container .nav-link:active .dropdown-content {
-    max-height: fit-content;
-}
 
 /* Banner image on home page */
 /* Makes the Banner container an aspect ratio of 1:1 (width always the size of the page) */
