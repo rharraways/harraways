@@ -1,1 +1,7 @@
 .dropdown:hover .dropdown-content {display: block;}
+
+a#logo {
+    max-width: 16em;
+    height: 136px;
+    margin-top: -50px;
+}

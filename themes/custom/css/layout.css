@@ -51,11 +51,7 @@ a:visited {
     position: relative;
     display: inline-block;
 }
-a#logo {
-    max-width: 16em;
-    height: 136px;
-    margin-top: -50px;
-}
+
 .dropdown-content {
     display: none;
     position: absolute;
