@@ -1,6 +1,6 @@
 ;(function($) { 
 	$('.dropdown').click(function(event){
-		if ($(this).find('.dropdown-content') && event.target.nodeName !== 'a') {
+		if ($(this).find('.dropdown-content') && event.target.nodeName !== 'A') {
 			event.preventDefault();
 			$(this).find(".dropdown-content").slideToggle( "slow");
 			console.log(event.target.nodeName);
