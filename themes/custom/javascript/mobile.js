@@ -1,10 +1,7 @@
 ;(function($) { 
 	$(document).ready(function() {
-		$(".lightwidget__tile").attr('flex-basis', '100%');
-		$(".lightwidget__tile").attr('max-width', '100%');
-		$(".lightwidget__tile").attr('width', '100%');
-
-		$(".lightwidget__image").attr('width', '100%');
+		$(".lightwidget__tile").attr('style', 'flex-basis: 100%; max-width: 100%; width: 100%;');
+		$(".lightwidget__image").attr('style', 'width: 100%;');
 
 		$('.dropdown').click(function(event){
 			console.log(event.target.className );
