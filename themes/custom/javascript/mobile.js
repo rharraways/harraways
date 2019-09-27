@@ -1,6 +1,8 @@
 ;(function($) { 
-	$('.dropdown').click(function(event){
-		event.preventDefault();
-		$(this).find(".dropdown-content").slideToggle( "slow");
+	$('.parent').click(function(event){
+		if ($(this).find('dropdown-content')) {
+			event.preventDefault();
+			$(this).find(".dropdown-content").slideToggle( "slow");
+		}
 	});
 })(jQuery);

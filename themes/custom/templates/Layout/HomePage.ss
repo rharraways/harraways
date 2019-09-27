@@ -35,35 +35,35 @@
 
 
                <% if $Pos == 1 %>
-                    <div class="col-md col-sm-12">
+                    <div class="col-md col-sm-12 product_feature">
                               <a href="$Link"> <img href="$Link" src="$PlaceHolderProductImage.URL"  class="img-fluid" alt=""></a>
                         <MrEavesh5><a href="$Link" class="cbl"> $ShortTitle </a></MrEavesh5>
                     </div>
                <% end_if %>
 
                 <% if $Pos == 2 %>
-                <div class="col-md col-sm-12">
+                <div class="col-md col-sm-12 product_feature">
                     <a href="$Link"> <img href="$Link" src="$PlaceHolderProductImage.URL"  class="img-fluid" alt=""></a>
                     <MrEavesh5><a href="$Link" class="cbl"> $ShortTitle </a></MrEavesh5>
                 </div>
                 <% end_if %>
 
                 <% if $Pos == 3 %>
-                <div class="col-md col-sm-12">
+                <div class="col-md col-sm-12 product_feature">
                     <a href="$Link"> <img href="$Link" src="$PlaceHolderProductImage.URL"  class="img-fluid" alt=""></a>
                     <MrEavesh5><a href="$Link" class="cbl"> $ShortTitle </a></MrEavesh5>
                 </div>
                 <% end_if %>
 
                 <% if $Pos == 4 %>
-                <div class="col-md col-sm-12">
+                <div class="col-md col-sm-12 product_feature">
                     <a href="$Link"> <img href="$Link" src="$PlaceHolderProductImage.URL"  class="img-fluid" alt=""></a>
                     <MrEavesh5><a href="$Link" class="cbl"> $ShortTitle </a></MrEavesh5>
                 </div>
                 <% end_if %>
 
                 <% if $Pos == 5 %>
-                <div class="col-md col-sm-12">
+                <div class="col-md col-sm-12 product_feature">
                     <a href="$Link"> <img href="$Link" src="$PlaceHolderProductImage.URL"  class="img-fluid" alt=""></a>
                     <MrEavesh5><a href="$Link" class="cbl"> $ShortTitle </a></MrEavesh5>
                 </div>
