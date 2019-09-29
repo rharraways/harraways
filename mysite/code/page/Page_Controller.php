@@ -173,8 +173,6 @@ class Page_Controller extends ContentController
         }
         throw new Exception('Passed invalid authentication method');
     }
-
-
 }
 
 
