@@ -6,7 +6,8 @@ class RegisterForm extends Page {
             TextField::create('Email'),
             PasswordField::create('Password'),
             PasswordField::create('ConfirmPassword'),
-            TextField::create('Username')
+            TextField::create('Username'),
+            TextField::create('Test'),
 
         );
 

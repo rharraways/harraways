@@ -101,7 +101,7 @@ a#logo {
 }
 
 .divider_custom_instagram {
-    width: auto;
+    width: auto !important;
 }
 
 
