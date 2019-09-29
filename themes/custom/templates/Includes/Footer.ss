@@ -2,7 +2,7 @@
     <footer class="CP yel">
         <div class="container">
             <div class="row" style="margin-top:20px;">
-                <div class="col-md-3 col-sm-12" style="margin-top:20px;">
+                <div class="col-md-3 col-sm-12 footer_logo_container" style="margin-top:20px;">
                     <a class="navbar-brand" href="$BaseHref/Home" style="max-width: 150px"><img src="$ThemeDir/images/circlelogo_harraways.png" class="w-10" style="width:100%;" alt=""></a>
                 </div>
                 <div class="col-md-2 col-sm-12 top_bot_marg_20 footer_content">
@@ -33,8 +33,8 @@
                         <p><footerText> <a href="$Link" class="cbl footer">$MenuTitle.XML</a></footerText></p>
                     <% end_loop %>
                 </div>
-                <div class="col-md-3 col-sm-12 top_bot_marg_20">
-                    <footerH2> JOIN US ONLINE
+                <div class="col-md-3 col-sm-12 top_bot_marg_20 footer_links">
+                    <footerH2 class="join_online"> JOIN US ONLINE
                         <a target="_blank" href="$SiteConfig.Facebook" ><img src="$ThemeDir/images/facebook-icon.png" style="height:30px;" class="img-fluid" alt=""></a>
                         <a style="margin-left:4px;" target="_blank" href="$SiteConfig.Instagram" ><img src="$ThemeDir/images/instagram-icon.png" style="height:30px;" class="img-fluid" alt=""></a>
                         <div class="col-md-12">

@@ -107,18 +107,49 @@ a#logo {
 
 
 /* FOOTER */
+.footer_logo_container {
+	bottom: 0;
+    position: absolute;
+    height: fit-content;
+}
+
 .footer_content {
-    margin: 0px;
-    padding: 0px;
-    width: 50%;
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 55% !important;
+    padding-left: 5% !important;
 }
 
 .footer_content footerh2 {
 	font-size: 20px;
+	margin-bottom: 10px;
 }
 
 .footer_content p {
     display: none;
+}
+
+.footer_links {
+	width: 50%;
+    position: absolute;
+    right: 0;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 5%;
+    text-align: right;
+}
+
+.footer_links .join_online {
+    font-size: 20px;
+}
+
+.footer_links .join_online img {
+    margin-top: 10px;
+}
+
+footer.CP.yel {
+	min-height: 270px;
+    padding-top: 5px;
 }
 
 
