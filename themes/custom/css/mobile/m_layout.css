@@ -109,7 +109,7 @@ a#logo {
 /* FOOTER */
 .footer_logo_container {
 	bottom: 0;
-    position: absolute;
+    position: absolute !important;
     height: fit-content;
 }
 
@@ -118,6 +118,7 @@ a#logo {
     padding: 0px !important;
     width: 55% !important;
     padding-left: 5% !important;
+    text-align: left;
 }
 
 .footer_content footerh2 {
@@ -130,12 +131,12 @@ a#logo {
 }
 
 .footer_links {
-	width: 50%;
-    position: absolute;
+	width: 50% !important;
+    position: absolute !important;
     right: 0;
-    margin: 0px;
-    padding: 0px;
-    padding-right: 5%;
+    margin: 0px !important;
+    padding: 0px !important;
+    padding-right: 5% !important;
     text-align: right;
 }
 
