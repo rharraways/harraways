@@ -36,7 +36,7 @@
         e.preventDefault();
         var optionTop = $(this).offset().top
         var selectTop = $('.listbox').offset().top;
-        select.scrollTop(select.scrollTop() + (optionTop - selectTop));
+        $('.listbox').scrollTop($('.listbox').scrollTop() + (optionTop - selectTop));
         $(this).prop('selected', !$(this).prop('selected'));
         console.log(optionTop+" "+selectTop);
     });
