@@ -29,7 +29,7 @@
 
  
  <div class="container">
-     <div class=" bgelw">
+     <div>
 
 
         <div class="row text-center justify-content-center py-7 cbl">
