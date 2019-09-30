@@ -36,5 +36,6 @@
         e.preventDefault();
         $(this).prop('selected', !$(this).prop('selected'));
     });
+    $(".listbox").attr("size",$(".listbox option").length / $(".listbox").length);
   });
 </script>
