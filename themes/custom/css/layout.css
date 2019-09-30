@@ -1010,6 +1010,9 @@ div#Form_ContactForm_WhereDidYouFindUs_Holder, div#Form_ContactForm_Email_Holder
 div#Form_ContactForm_Message_Holder {
     float: left;
     width: 100%;
+}
+
+div#Form_ContactForm_Message_Holder textarea {
     height: 200px;
 }
 
