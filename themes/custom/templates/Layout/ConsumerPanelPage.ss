@@ -37,6 +37,7 @@
         e.preventDefault();
         $(this).prop('selected', !$(this).prop('selected'));
         $('.listbox').scrollTop(pos);
+        console.log(pos);
         return false;
     });
   });
