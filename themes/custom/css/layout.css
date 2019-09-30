@@ -776,7 +776,13 @@ select#recipelist {
     margin-left:10px;
     margin-bottom:20px;
     padding-bottom: 20px;
+    line-height: 15px;
 }
+
+#listPageRecipeImg p {
+    padding-top: 15px;
+}
+
 button#SearchReceipe_SearchForm_action_results
 {
 margin-top:20px !important;
@@ -1197,10 +1203,6 @@ a.footer {
 
 .recipe_spacer {
   height: 40px;
-}
-
-#listPageRecipeImg p {
-  line-height: 15px;
 }
 
 .recipe_icon_text {
