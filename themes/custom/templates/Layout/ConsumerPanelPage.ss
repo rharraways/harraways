@@ -33,8 +33,10 @@
 <script type="text/javascript">
   $(document).ready(function() {
     $('.listbox').find('option').mousedown(function(e) {
+        var pos = $(this).scrollTop();
         e.preventDefault();
         $(this).prop('selected', !$(this).prop('selected'));
+        $(this).scrollTop(pos);
         return false;
     });
   });
