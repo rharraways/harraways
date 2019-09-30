@@ -1,5 +1,5 @@
-<div class="container banner-container" style="margin-bottom:20px;">
-  <div class="row text-center cbl py-12 flex-lg-row ">
+<div class="container banner-container" style="margin-bottom:20px;"> 
+  <div class="row text-center cbl py-12 flex-lg-row">
     <div class="col-md-12" id="textoverimage" style="margin-bottom:30px;">
       <a href="$ConsumerPanelBannerLink.Link"> 
         <img id="" src="$ConsumerPanelBanner.URL" class="img-fluid" alt="">
