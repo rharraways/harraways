@@ -63,7 +63,7 @@ class ConsumerPanelPage_Controller extends Page_Controller
                 TextField::create("City")->setAttribute('placeholder', 'City')->setAttribute('id', 'city_2')
                     ->setAttribute('class','text addy-2-city'),
                 TextField::create("PostCode")->setAttribute('placeholder', 'PostCode')->setAttribute('id', 'postcode_2')
-                    ->setAttribute('class','text addy-2-postcode')->setDescription('Select Product <strong>(via ctrl + click)</strong>'),
+                    ->setAttribute('class','text addy-2-postcode'),
                 ListboxField::create( $name = "Product", $title = "Product", Product::get()->map( "ShortTitle", "ShortTitle")->toArray())->setAttribute('placeholder', 'products')
                     ->setMultiple(true));
 
