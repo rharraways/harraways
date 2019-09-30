@@ -168,11 +168,17 @@ MrEavesh5 {
 
 /* CONTACT PAGE */
 
-.mobile_contact {
+.mobile_form {
 	max-width: 90% !important;
     flex: 0 0 90% !important;
 }
 
-.mobile_contact .action {
+.mobile_form .action {
 	height: 40px;
+}
+
+/* COMSUMER PANEL PAGE */
+
+.mobile_comsumerpanel {
+
 }
