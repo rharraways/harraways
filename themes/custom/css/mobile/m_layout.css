@@ -153,6 +153,19 @@ footer.CP.yel {
     padding-top: 5px;
 }
 
+
+/* FONTS */
+MrEavesh5 {
+    font-size: 20px;
+    font-family: "Mr Eaves Mod Heavy" !important;
+    font-weight: bold;
+}
+
+
+/******************************
+************PAGES**************
+******************************/
+
 /* CONTACT PAGE */
 
 .mobile_contact {
@@ -160,18 +173,6 @@ footer.CP.yel {
     flex: 0 0 90% !important;
 }
 
-.mobile_contact textarea {
-	height: 200px;
-}
-
 .mobile_contact .action {
 	height: 40px;
-}
-
-
-/* FONTS */
-MrEavesh5 {
-    font-size: 20px;
-    font-family: "Mr Eaves Mod Heavy" !important;
-    font-weight: bold;
 }
