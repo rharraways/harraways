@@ -1,7 +1,7 @@
 
-<div class="container" style="margin-bottom:20px;">
+<div class="container banner-container" style="margin-bottom:20px;">
     <div class="row text-center cbl py-12 flex-lg-row ">
-        <div class="col-md-12" style="margin-bottom:30px;" >
+        <div class="col-md-12" id="textoverimage" style="margin-bottom:30px;" >
 
             <a href="$ContactBannerPageImageLink.Link"> <img id=""  src="$ContactBannerPageImage.URL" class="img-fluid" alt=""></a>
 
