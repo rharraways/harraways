@@ -1017,7 +1017,7 @@ div#Form_ContactForm_Message_Holder textarea {
 }
 
 select#Form_ConsumerForm_Product {
-   
+   height: auto;
 }
 
 pagefooter .text1{
