@@ -153,6 +153,21 @@ footer.CP.yel {
     padding-top: 5px;
 }
 
+/* CONTACT PAGE */
+
+.mobile_contact {
+	max-width: 90% !important;
+    flex: 0 0 90% !important;
+}
+
+.mobile_contact .textarea {
+	height: 200px;
+}
+
+.mobile_contact .action {
+	height: 40px;
+}
+
 
 /* FONTS */
 MrEavesh5 {

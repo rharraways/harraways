@@ -11,7 +11,7 @@
 </div>
 
 
-<section class="FRM" style="margin-bottom:30px;">
+<section class="FRM">
       <div class="container">
         <div class="row text-center justify-content-center py-12 cbl">
           <div class="col-10 ">
@@ -33,7 +33,7 @@
 
 
         <div class="row text-center justify-content-center py-7 cbl">
-          <div class="col-8 " style="margin-top:20px;">
+          <div class="col-8 mobile_contact">
              
                 $ContactForm
                                      
