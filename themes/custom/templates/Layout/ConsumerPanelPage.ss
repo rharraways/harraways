@@ -30,3 +30,12 @@
 
 <script src="https://www.addy.co.nz/scripts/addy.js?key=demo-api-key&loadcss=true&enableLocation=true" async defer>
 </script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.listbox').find('option').mousedown(function(e) {
+        e.preventDefault();
+        $(this).prop('selected', !$(this).prop('selected'));
+        return false;
+    });
+  });
+</script>
