@@ -109,4 +109,9 @@ jQuery.noConflict();
 	  	$(this).parent().parent().remove();
 	});
 
+	$('.listbox').find('option').mousedown(function(e) {
+        e.preventDefault();
+        $(this).prop('selected', !$(this).prop('selected'));
+        return false;
+    });
 }(jQuery));
