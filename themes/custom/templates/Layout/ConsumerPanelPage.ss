@@ -33,7 +33,7 @@
 <script type="text/javascript">
   $(document).ready(function() {
     $('.listbox').find('option').mousedown(function(e) {
-        var pos = $(this).scrollTop();
+        var pos = $(this).offset().top;
         e.preventDefault();
         $(this).prop('selected', !$(this).prop('selected'));
         $(this).scrollTop(pos);
