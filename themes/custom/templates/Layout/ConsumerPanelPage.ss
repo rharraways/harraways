@@ -35,8 +35,7 @@
     $('.listbox').find('option').mousedown(function(e) {
         e.preventDefault();
         $(this).prop('selected', !$(this).prop('selected'));
-        $(this).scrollTo();
-        return false;
+        
     });
   });
 </script>
