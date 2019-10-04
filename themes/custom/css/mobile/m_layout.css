@@ -263,3 +263,7 @@ producttitle2.right a {
 .custom-margin {
 	margin-top: 95px !important;
 }
+
+#listPageRecipeImg {
+    margin: 10px;
+}
