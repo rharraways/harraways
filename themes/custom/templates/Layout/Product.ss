@@ -5,7 +5,7 @@
             <a href="$Link"><img href="$Link" src="$PlaceHolderProductImage.URL"  class="img-fluid" alt=""></a>
         </div>
         <div class="col-md-4">
-            <div>
+            <div class="product_info">
                 <productTitle>$Product.Title</productTitle>
 
                 <hr class="producePage"/>
@@ -32,7 +32,7 @@
             <% loop ProductImages %>
                 <div class="parent-container col-12" >
                     <!--   $Me -->
-                     <a  rel="group"  href="$Link" data-fancybox="gallery"> <img href="$Link" src=" $CroppedImage(180,180).URL"  class="img-fluid thumbnail" alt="">
+                     <a  rel="group"  href="$Link" data-fancybox="gallery"> <img href="$Link" src="$Link"  class="img-fluid thumbnail" alt="">
                      </a>
                 </div>
             <% end_loop %>
