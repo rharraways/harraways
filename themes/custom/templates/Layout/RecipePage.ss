@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container recipe_container">
 	<div class="row col-md-12">
 		<div class="col-md-6" style="margin-bottom:30px;" >
 			<a  href="$Link"> 
