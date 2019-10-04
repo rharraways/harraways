@@ -212,7 +212,7 @@ MrEavesh5 {
 	margin-top: 20px;
 }
 
-.product_contents .product_info .productNIP {
+.product_contents .product_info .parent-container {
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -220,4 +220,13 @@ MrEavesh5 {
 productNIP {
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.carousel-item .col-4.float-left {
+    min-width: 100%;
+}
+
+.carousel-item .col-4.float-left mreavesh5 {
+    display: block;
+    line-height: 40px;
 }
