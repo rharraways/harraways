@@ -1,7 +1,7 @@
 <div class="container faq-container">
     <div class="bgelp">
         <div class="row text-center justify-content-center py-7 cbl">
-            <div class="col-4 ">
+            <div class="col-4 faq_heading">
                 <div  class="center" style="max-width: 60px;">
                     <img style="margin-top:10px;width:100%;" src="$ThemeDir/images/leaf2.png" class="img-fluid" alt="">
                 </div>
