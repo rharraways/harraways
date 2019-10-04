@@ -631,10 +631,6 @@ productDesc > p{
     font-family: "Mr Eaves Mod Reg";
 }
 
-productNIP {
-  margin-left: auto;
-  margin-right: auto;
-}
 
 productNIP p{
     color: #1e2a63 !Important;

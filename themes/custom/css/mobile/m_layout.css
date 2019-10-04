@@ -204,10 +204,20 @@ MrEavesh5 {
 /* PRODUCT */
 
 .product_contents {
-	padding-left: 0px !important;
-	padding-right: 0px !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
 }
 
 .product_contents .product_info {
 	margin-top: 20px;
+}
+
+.product_contents .product_info .productNIP {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+productNIP {
+    margin-left: 10px;
+    margin-right: 10px;
 }
