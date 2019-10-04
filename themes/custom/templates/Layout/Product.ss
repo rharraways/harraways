@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container product_contents">
     <div class="row cbl py-4 flex-lg-row ">
         <div id="" class="col-md-4">
             <span class=""></span>

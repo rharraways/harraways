@@ -200,3 +200,14 @@ MrEavesh5 {
 #listPageRecipeImg mreavesh5 {
     
 }
+
+/* PRODUCT */
+
+.product_contents {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.product_contents .product_info {
+	margin-top: 20px;
+}
