@@ -1090,7 +1090,7 @@ select#recipeCategory {
         font-weight: bold;
     }
     .center.leaf { /*reduce the leaf for modil device */
-        max-width: 20px !important;
+        max-width: 20px;
     }
     .container {
         max-width: 1440px;

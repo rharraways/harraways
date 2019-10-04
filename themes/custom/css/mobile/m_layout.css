@@ -74,6 +74,10 @@ a#logo {
     margin-top: -25px;
 }
 
+.center.leaf {
+	min-width: auto !important;
+}
+
 
 /* Banner images (ID: textover) */
 /* Makes the Banner container an aspect ratio of 1:1 (width always the size of the page) */

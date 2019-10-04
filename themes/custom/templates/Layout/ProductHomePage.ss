@@ -14,7 +14,7 @@
 
 <div class="container" style="margin-bottom:20px";>
 
-    <div class="row  text-uppercase text-center justify-content-center " style="margin-top:20px;">
+    <div class="row text-uppercase text-center justify-content-center " style="margin-top:20px;">
 
         <% loop $ListPageByType('ProductCategory') %>
 
