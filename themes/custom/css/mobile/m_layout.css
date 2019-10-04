@@ -267,3 +267,12 @@ producttitle2.right a {
 #listPageRecipeImg {
     margin: 10px;
 }
+
+.faq-container .container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.m_custom_margin {
+	padding-bottom: 40px;
+}

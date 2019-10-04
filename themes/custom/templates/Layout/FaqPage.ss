@@ -11,7 +11,7 @@
     </div>
     <div class="container">
         <div class="row  cbl py-12 flex-lg-row ">
-            <div class="col-md-6" style="padding-right:20px; border-right: 1px solid #1F2C63;">
+            <div class="col-md-6 faq_border">
                 <% loop $LeftFaqSections %>
                     <h1 style="text-align:center;">$Title</h1>
                     <div class="row py-7 cbl">
@@ -42,7 +42,7 @@
                     </div>
                 <% end_loop %>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 m_custom_margin">
                 <% loop $RightFaqSections %>
                     <h1 style="text-align:center;">$Title</h1>
                     <div class="row py-7 cbl">
