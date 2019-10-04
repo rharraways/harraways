@@ -238,3 +238,12 @@ productNIP {
 .recipe_container .row.col-md-12 .col-md-6 {
     padding: 0px;
 }
+
+.offset-md-custom {
+    padding-left: 10px;
+    padding-top: 40px;
+}
+
+#recipe {
+    margin-bottom: 20px;
+}

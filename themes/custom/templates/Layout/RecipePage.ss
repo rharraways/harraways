@@ -52,7 +52,7 @@
 								<img style="text-align: left;" src="$ProductthumbnailImage.SetRatioSize(500,500).URL"  class="img-fluid" alt="">
 							</a>
 						</div>
-						<div id="recipe" class="col-md-6" style="margin-right:1px !important; margin-left:-14px !important;">
+						<div id="recipe" class="col-md-6">
 							<receipeDesc>Made with Harraways <br/>
 								$ShortTitle 
 							</receipeDesc>

@@ -24,3 +24,13 @@ productNIP {
 .recipes-img-product img.img-fluid {
     width: 44%;
 }
+
+.offset-md-custom {
+    padding-left: 90px;
+}
+
+#recipe {
+    max-width: 44%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
