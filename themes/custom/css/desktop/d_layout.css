@@ -20,3 +20,7 @@ productNIP {
     margin-left: auto;
     margin-right: auto;
 }
+
+.recipes-img-product img.img-fluid {
+    width: 44%;
+}

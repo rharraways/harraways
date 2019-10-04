@@ -47,7 +47,7 @@
 				<!-- recipe text -->
 				<% loop $ListPageByTypeUsingID('Product',$ProductID) %>
 					<% if $ShortTitle %>
-						<div class="col-md-custom-recipes" style="text-align: left;margin-right:1px !important; margin-left:-25px !important;">
+						<div class="col-md-custom-recipes recipes-img-product" style="text-align: left;margin-right:1px !important; margin-left:-25px !important;">
 							<a href="$Link" >
 								<img style="text-align: left;" src="$ProductthumbnailImage.SetRatioSize(500,500).URL"  class="img-fluid" alt="">
 							</a>
