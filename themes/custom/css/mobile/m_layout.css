@@ -247,3 +247,13 @@ productNIP {
 #recipe {
     margin-bottom: 20px;
 }
+
+producttitle2.right {
+    float: left !important;
+    text-align: left !important;
+}
+
+producttitle2.right a {
+    display: block;
+    padding-top: 20px;
+}
