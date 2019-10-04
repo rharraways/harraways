@@ -49,7 +49,7 @@
 					<% if $ShortTitle %>
 						<div class="col-md-custom-recipes" style="text-align: left;margin-right:1px !important; margin-left:-25px !important;">
 							<a href="$Link" >
-								<img style="text-align: left;" src="$ProductthumbnailImage"  class="img-fluid" alt="">
+								<img style="text-align: left;" src="$ProductthumbnailImage.SetRatioSize(500,500).URL"  class="img-fluid" alt="">
 							</a>
 						</div>
 						<div id="recipe" class="col-md-6" style="margin-right:1px !important; margin-left:-14px !important;">
