@@ -4,12 +4,15 @@
 		$(".lightwidget-widget").contents().find(".lightwidget__image").attr('style', 'width: 100%;');
 
 		$('.dropdown').click(function(event){
-			console.log(event.target.className );
 			if ($(this).find('.dropdown-content') && event.target.className  !== 'nav-link child') {
 				event.preventDefault();
 				$(this).find(".dropdown-content").slideToggle( "slow");
-				console.log(event.target.className );
 			}
+		});
+
+		$('.footer_content').click(function(event){
+			$(this).find('p:visible').hide();
+			$(this).find('p:hidden').show();
 		});
 	});
 })(jQuery);
