@@ -16,7 +16,7 @@
             <div class="col-md-12" style="margin-bottom:20px;width:100%;">
                 <input style="width:100%;" type="text" class="text" id="addressInput" placeholder="Enter Post code OR Address"  />
             </div>
-            <div class="col-md-12" style="margin-bottom:20px;width:100%;">
+            <!--<div class="col-md-12" style="margin-bottom:20px;width:100%;">
                 <h3 class="text-uppercase">SEARCH VIA DISTANCE</h3>
                 <select  style="width:100%;" id="radiusSelect">
                     <option  style="width:100%;" value="0" selected>Please select distance</option>
@@ -25,7 +25,7 @@
                     <option value="100">100km</option>
                     <option value="200"> greater than 200km</option>
                 </select>
-            </div>
+            </div>-->
             <div class="col-md-12" style="margin-bottom:20px;">
                 <input style="width:100%;" type="submit" id="searchLocations" value="Search"/>
             </div>
