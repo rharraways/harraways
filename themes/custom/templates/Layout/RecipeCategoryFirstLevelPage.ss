@@ -1,31 +1,3 @@
-<!--
-<div class="container">
-    <div class="row text-center cbl py-12 flex-lg-row ">
-        <div class="col-md-12" style="margin-bottom:30px;" >
-            <div id="textoverimage" class="container">
-                <a href="$RecipeCategoryPageImageLink.Link"> <img id=""  src="$RecipeCategoryPageImage.URL" class="img-fluid" alt=""></a>
-                <div class="centered">
-                    <h2>$Header1</h2>
-                    <h1>$Header2</h1>
-                    <h2>$Header3</h2 >
-                    <button onclick="location.href='$BaseHref/Product';">See More</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="row text-center justify-content-center">
-        <div class="col-md-4" style="">
-            <input id="receipe_input"   id="Form_SearchForm_ShortTitle"  name="ShortTitle" class="form-control mr-sm-2 cbl bout-bl fz14" type="search" placeholder="search for recipe with keywords" value="" aria-label="Search">
-        </div>
-        <div class="text-center justify-content-center">
-            <input  type="submit" id="receipeSearch" value="Search"/>
-        </div>
-    </div>
-</div>
--->
 <div class="recipe_spacer"></div>
 <section class="PRD">
     <div class="container">
