@@ -9,7 +9,7 @@
 
     <% loop $AboutSections %>
         <div class="container">
-            <div class="row  cbl py-4 flex-lg-row flex-column-reverse m-flex-column-non-reverse">
+            <div class="row  cbl py-4 flex-lg-row d-flex-column-reverse m-flex-column-non-reverse">
                 <div class="col-md-12 text-center">
                     <div  class="center" style="max-width: 60px;">
                         <img style="margin-top:10px;width:100%;" src="$ThemeDir/images/leaf2.png" class="img-fluid" alt="">

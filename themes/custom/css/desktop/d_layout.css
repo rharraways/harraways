@@ -43,3 +43,7 @@ productNIP {
     height: 15px;
     line-height: 15px;
 }
+
+.d-flex-column-reverse {
+    flex-direction: column-reverse!important;
+}
