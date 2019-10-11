@@ -12,9 +12,9 @@
 
 		$('.footer_content').click(function(event){
 			if ( $(this).find('p').css('visibility') == 'hidden' ) 
-			    $(this).find('p').css('visibility','visible');
+			    $(this).find('p').show();
 			else
-			    $(this).find('p').css('visibility','hidden');
+			    $(this).find('p').hide();
 		});
 	});
 })(jQuery);
