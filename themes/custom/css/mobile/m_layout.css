@@ -317,3 +317,7 @@ producttitle2.right a {
 .m-flex-column-non-reverse {
     flex-direction: unset !important;
 }
+
+.about-container p {
+    font-size: 21px !important;
+}

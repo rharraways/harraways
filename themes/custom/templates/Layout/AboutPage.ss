@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container about-container">
     <div class="row cbl py-12 flex-lg-row ">
         <div class="col-md-12" style="margin-bottom:30px;" >
             <div class="container">
