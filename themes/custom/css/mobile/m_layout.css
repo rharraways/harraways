@@ -323,5 +323,9 @@ producttitle2.right a {
 }
 
 .store-map {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.store-map #map {
+    width: 400px !important;
 }
