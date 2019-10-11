@@ -313,3 +313,7 @@ producttitle2.right a {
     margin: 0 !important;
     padding: 0 !important;
 }
+
+.m-flex-column-non-reverse {
+    flex-direction: unset !important;
+}
