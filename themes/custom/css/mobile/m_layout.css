@@ -282,6 +282,20 @@ producttitle2.right a {
     max-width: 100% !important;
 }
 
+.site-map p {
+    height: 20px;
+}
+
 .site-map {
     margin-bottom: 165px !important;
+}
+
+.footer_content a.cbl.footer {
+    font-size: 17px;
+    padding: 0px;
+
+}
+
+.footer_content p footertext {
+    font-size: 17px;
 }
