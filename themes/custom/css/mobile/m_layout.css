@@ -321,37 +321,3 @@ producttitle2.right a {
 .about-container p {
     font-size: 21px !important;
 }
-
-#logins {
-    width: 40% !important;
-    padding: 0px  !important;
-}
-
-#logins h3 {
-    font-size: 40px;
-    font-family: "Mr Eaves Mod Heavy" !important;
-    text-align: right;
-}
-
-#slash {
-    width: 20% !important;
-    padding: 0px  !important;
-}
-
-#slash h3 {
-    font-size: 40px;
-    font-family: "Mr Eaves Mod Heavy" !important;
-    text-align: center;
-}
-
-
-#registers {
-    width: 40% !important;
-    padding: 0px !important;
-}
-
-#registers h3 {
-    font-size: 40px;
-    font-family: "Mr Eaves Mod Heavy" !important;
-    text-align: left;
-}
