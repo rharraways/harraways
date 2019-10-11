@@ -1,8 +1,10 @@
 <div class="container about-container">
-    <div class="row cbl py-12 flex-lg-row ">
-        <div class="col-md-12" style="margin-bottom:30px;" >
-            <div class="container">
-                <a href="$AboutBannerPageImageLink.Link"> <img id=""  src="$AboutBannerPageImage.URL" class="img-fluid" alt=""></a>
+    <div class="container banner-container">
+        <div class="row cbl py-12 flex-lg-row ">
+            <div class="col-md-12" style="margin-bottom:30px;" >
+                <div id="textoverimage" class="container">
+                    <a href="$AboutBannerPageImageLink.Link"> <img id=""  src="$AboutBannerPageImage.URL" class="img-fluid" alt=""></a>
+                </div>
             </div>
         </div>
     </div>
