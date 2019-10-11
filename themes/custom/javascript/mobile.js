@@ -11,10 +11,7 @@
 		});
 
 		$('.footer_content').click(function(event){
-			if ( $(this).find('p').css('visibility') == 'hidden' ) 
-			    $(this).find('p').show();
-			else
-			    $(this).find('p').hide();
+			$(this).find('p').toggle();
 		});
 	});
 })(jQuery);
