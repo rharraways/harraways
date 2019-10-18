@@ -20,7 +20,9 @@
                     <!-- LightWidget WIDGET -->
                     
                     
-                    <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://cdn.lightwidget.com/widgets/232c3920e9c75314b8950f5e37514d79.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+                    <!--<script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://cdn.lightwidget.com/widgets/232c3920e9c75314b8950f5e37514d79.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>-->
+
+                    <iframe src="//lightwidget.com/widgets/538c37f3f3a4518990daf2aa74a3a799.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
                     
                      <% end_if %>
 
