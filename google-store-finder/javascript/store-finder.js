@@ -144,8 +144,6 @@ function searchLocationsNear(center,lats,lngs,useCurrentLoc ) {
     	 if(product !="noProductSelected") 
     	 	useCurrentLoc == "useBoth"
     }
-
-    console.log('center '+center);
    
      
     if(useCurrentLoc == "noAddress")
@@ -184,7 +182,7 @@ function searchLocationsNear(center,lats,lngs,useCurrentLoc ) {
         } else {
             alert("no locations found.");
         }
-        autoCenter();
+        //autoCenter();
     });
 
     
