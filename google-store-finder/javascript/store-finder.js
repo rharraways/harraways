@@ -125,8 +125,8 @@ function searchLocations() {
  */
 function searchLocationsNear(center,lats,lngs,useCurrentLoc ) {
     clearLocations();
-    var radius = 1000;//document.getElementById('radiusSelect').value;
-    var product =document.getElementById('productSelect').value;
+    var radius = 10000;//document.getElementById('radiusSelect').value;
+    var product = document.getElementById('productSelect').value;
 
     if(useCurrentLoc == "useLocation")
     {
@@ -144,6 +144,8 @@ function searchLocationsNear(center,lats,lngs,useCurrentLoc ) {
     	 if(product !="noProductSelected") 
     	 	useCurrentLoc == "useBoth"
     }
+
+    console.log('center '+center);
    
      
     if(useCurrentLoc == "noAddress")
@@ -160,7 +162,7 @@ function searchLocationsNear(center,lats,lngs,useCurrentLoc ) {
         var markerNodes = xml.documentElement.getElementsByTagName("marker");
 
         if(markerNodes.length > 0){
-          console.log("marker nodes"+ markerNodes.length);
+          console.log("marker nodes "+ markerNodes.length);
             var bounds = new google.maps.LatLngBounds();
             for (var i = 0; i < markerNodes.length; i++) {
                 var productname = markerNodes[i].getAttribute("productname");
