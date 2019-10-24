@@ -125,7 +125,7 @@ function searchLocations() {
  */
 function searchLocationsNear(center,lats,lngs,useCurrentLoc ) {
     clearLocations();
-    var radius = document.getElementById('radiusSelect').value;
+    var radius = 1000;//document.getElementById('radiusSelect').value;
     var product =document.getElementById('productSelect').value;
 
     if(useCurrentLoc == "useLocation")
