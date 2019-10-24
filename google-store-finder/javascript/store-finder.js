@@ -182,7 +182,7 @@ function searchLocationsNear(center,lats,lngs,useCurrentLoc ) {
         } else {
             alert("no locations found.");
         }
-        //autoCenter();
+        autoCenter();
     });
 
     
