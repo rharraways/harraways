@@ -196,8 +196,9 @@ function searchLocationsNear(center,lats,lngs,useCurrentLoc ) {
       console.log("markers "+markers.length);
       for (var i = 0; i < markers.length; i++) { 
 
-                bounds.extend(markers[i].position);
+                //bounds.extend(markers[0].position);
       }
+      bounds.extend(markers[0].position);
       //  Fit these bounds to the map
       map.fitBounds(bounds);
     }
