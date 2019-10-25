@@ -194,13 +194,16 @@ function searchLocationsNear(center,lats,lngs,useCurrentLoc ) {
       var bounds = new google.maps.LatLngBounds();
       //  Go through each...
       console.log("markers "+markers.length);
-      var markersLenght = markers.length < 5 ? 4 : markers.length;
+      for (var i = 0; i < markers.length; i++) { 
 
-      for (var i = 0; i < markersLenght; i++) { 
-
-                bounds.extend(markers[0].position);
+                //bounds.extend(markers[i].position);
       }
-      //bounds.extend(markers[0].position);
+      
+      bounds.extend(markers[0].position);
+      if (bounds.getNorthEast().equals(bounds.getSouthWest())) {
+         var extendPoint = new google.maps.LatLng(bounds.getNorthEast().lat() + 0.01, bounds.getNorthEast().lng() + 0.01);
+         bounds.extend(extendPoint);
+      }
       //  Fit these bounds to the map
       map.fitBounds(bounds);
     }
