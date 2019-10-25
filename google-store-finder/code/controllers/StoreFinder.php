@@ -2,7 +2,7 @@
 class StoreFinder extends Page {
 
     public static $MarkerClass = 'StoreLocation';
-
+    public static $Marker = 'Marker';
   
 
     public static $has_one = array(
@@ -143,7 +143,7 @@ class StoreFinder_Controller extends Page_Controller {
         //$data = DB::query('SELECT "ID" FROM "Marker" LIMIT 0 , '.$limit.';')->value();
         // $query = 'SELECT "ID", ( 3959 * acos( cos( radians('.$lat.') ) * cos( radians( Latitude ) ) * cos( radians( Longitude ) - radians('.$long.') ) + sin( radians('.$lat.') ) * sin( radians( Latitude ) ) ) ) AS "Distance" FROM "Marker" HAVING "Distance" < '.$distance.' ORDER BY "Distance" LIMIT 0 , '.$limit.';';
        
-        $markerClass = StoreFinder::$MarkerClass;
+        $markerClass = StoreFinder::$Marker;
         $sqlQuery = new SQLQuery();
         $sqlQuery->setFrom($markerClass);
         $sqlQuery->selectField('*');
@@ -167,7 +167,7 @@ class StoreFinder_Controller extends Page_Controller {
             $sqlQuery->setOrderBy('ProductName');
         }
        
-        if($markerClass != 'Marker'){
+        if($markerClass != 'StoreLocation'){
             $sqlQuery->addLeftJoin("Marker", 'Marker.ID = '.$markerClass.'.ID');
         }
         $this->extraSQL($sqlQuery);
