@@ -198,10 +198,12 @@ function searchLocationsNear(center,lats,lngs,useCurrentLoc ) {
 
                 //bounds.extend(markers[i].position);
       }
-      
+
       bounds.extend(markers[0].position);
       if (bounds.getNorthEast().equals(bounds.getSouthWest())) {
          var extendPoint = new google.maps.LatLng(bounds.getNorthEast().lat() + 0.01, bounds.getNorthEast().lng() + 0.01);
+         bounds.extend(extendPoint);
+         var extendPoint = new google.maps.LatLng(bounds.getNorthEast().lat() - 0.01, bounds.getNorthEast().lng() - 0.01);
          bounds.extend(extendPoint);
       }
       //  Fit these bounds to the map
