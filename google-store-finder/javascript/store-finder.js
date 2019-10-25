@@ -194,11 +194,13 @@ function searchLocationsNear(center,lats,lngs,useCurrentLoc ) {
       var bounds = new google.maps.LatLngBounds();
       //  Go through each...
       console.log("markers "+markers.length);
-      for (var i = 0; i < markers.length; i++) { 
+      var markersLenght = markers.length < 5 ? 4 : markers.length;
 
-                //bounds.extend(markers[0].position);
+      for (var i = 0; i < markersLenght; i++) { 
+
+                bounds.extend(markers[0].position);
       }
-      bounds.extend(markers[0].position);
+      //bounds.extend(markers[0].position);
       //  Fit these bounds to the map
       map.fitBounds(bounds);
     }
