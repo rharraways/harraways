@@ -149,14 +149,14 @@ class StoreFinder_Controller extends Page_Controller {
         $sqlQuery->selectField('*');
         if($productName == null && $lat !=0 && $long !=0) {
             $sqlQuery->selectField('( 3959 * acos( cos( radians('.$lat.') ) * cos( radians( Latitude ) ) * cos( radians( Longitude ) - radians('.$long.') ) + sin( radians('.$lat.') ) * sin( radians( Latitude ) ) ) )', 'Distance');
-            //$sqlQuery->setHaving("Distance <= ".$distance);
+            $sqlQuery->setHaving("Distance <= ".$distance);
             $sqlQuery->setOrderBy('Distance');
 
         }
         else if($productName != null && $lat !=0 && $long !=0) {
             $sqlQuery->selectField('( 3959 * acos( cos( radians('.$lat.') ) * cos( radians( Latitude ) ) * cos( radians( Longitude ) - radians('.$long.') ) + sin( radians('.$lat.') ) * sin( radians( Latitude ) ) ) )', 'Distance');        
             $sqlQuery->setWhere("Marker.ProductName = '".$productName."'");
-            //$sqlQuery->setHaving("Distance <= ".$distance);
+            $sqlQuery->setHaving("Distance <= ".$distance);
             $sqlQuery->setOrderBy('Distance');
 
            
