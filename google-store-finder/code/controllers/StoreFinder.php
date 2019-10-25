@@ -80,7 +80,7 @@ class StoreFinder_Controller extends Page_Controller {
     public function locationSearch(SS_HTTPRequest $request){
         $center_lat = isset($_GET["lat"]) ? $_GET["lat"] : 40;
         $center_lng = isset($_GET["lng"]) ? $_GET["lng"] : -100;
-        $radius = isset($_GET["radius"]) ? $_GET["radius"] : 50000;
+        $radius = isset($_GET["radius"]) ? $_GET["radius"] : 500;
 
         $result = $this->getLocationSQLResultsByLatLong($center_lat, $center_lng, $radius, null);
 
@@ -92,7 +92,7 @@ class StoreFinder_Controller extends Page_Controller {
     public function productLocationSearch(SS_HTTPRequest $request){
         $center_lat = isset($_GET["lat"]) ? $_GET["lat"] : 40;
         $center_lng = isset($_GET["lng"]) ? $_GET["lng"] : -100;
-        $radius = isset($_GET["radius"]) ? $_GET["radius"] : 50000;
+        $radius = isset($_GET["radius"]) ? $_GET["radius"] : 500;
 
         $productName = isset($_GET["productName"]) ? $_GET["productName"] : "";
 
