@@ -144,6 +144,7 @@ class StoreFinder_Controller extends Page_Controller {
         // $query = 'SELECT "ID", ( 3959 * acos( cos( radians('.$lat.') ) * cos( radians( Latitude ) ) * cos( radians( Longitude ) - radians('.$long.') ) + sin( radians('.$lat.') ) * sin( radians( Latitude ) ) ) ) AS "Distance" FROM "Marker" HAVING "Distance" < '.$distance.' ORDER BY "Distance" LIMIT 0 , '.$limit.';';
        
         $markerClass = StoreFinder::$Marker;
+        var_dump($markerClass);
         $sqlQuery = new SQLQuery();
         $sqlQuery->setFrom($markerClass);
         $sqlQuery->selectField('*');
