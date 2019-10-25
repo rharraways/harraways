@@ -2,7 +2,7 @@
 class StoreFinder extends Page {
 
     public static $MarkerClass = 'StoreLocation';
-    public static $Marker = 'Marker';
+
   
 
     public static $has_one = array(
@@ -80,7 +80,7 @@ class StoreFinder_Controller extends Page_Controller {
     public function locationSearch(SS_HTTPRequest $request){
         $center_lat = isset($_GET["lat"]) ? $_GET["lat"] : 40;
         $center_lng = isset($_GET["lng"]) ? $_GET["lng"] : -100;
-        $radius = isset($_GET["radius"]) ? $_GET["radius"] : 500;
+        $radius = isset($_GET["radius"]) ? $_GET["radius"] : 50000;
 
         $result = $this->getLocationSQLResultsByLatLong($center_lat, $center_lng, $radius, null);
 
@@ -92,7 +92,7 @@ class StoreFinder_Controller extends Page_Controller {
     public function productLocationSearch(SS_HTTPRequest $request){
         $center_lat = isset($_GET["lat"]) ? $_GET["lat"] : 40;
         $center_lng = isset($_GET["lng"]) ? $_GET["lng"] : -100;
-        $radius = isset($_GET["radius"]) ? $_GET["radius"] : 500;
+        $radius = isset($_GET["radius"]) ? $_GET["radius"] : 50000;
 
         $productName = isset($_GET["productName"]) ? $_GET["productName"] : "";
 
@@ -106,7 +106,7 @@ class StoreFinder_Controller extends Page_Controller {
     public function productSearch(SS_HTTPRequest $request){
         $productName = isset($_GET["productName"]) ? $_GET["productName"] : "";
             
-        $result = $this->getLocationSQLResultsByLatLong(0, 0,0,$productName);
+        $result = $this->getLocationSQLResultsByLatLong(0,0,0,$productName);
             
         $locations = $this->getLocationsResults($result);
       
@@ -143,8 +143,7 @@ class StoreFinder_Controller extends Page_Controller {
         //$data = DB::query('SELECT "ID" FROM "Marker" LIMIT 0 , '.$limit.';')->value();
         // $query = 'SELECT "ID", ( 3959 * acos( cos( radians('.$lat.') ) * cos( radians( Latitude ) ) * cos( radians( Longitude ) - radians('.$long.') ) + sin( radians('.$lat.') ) * sin( radians( Latitude ) ) ) ) AS "Distance" FROM "Marker" HAVING "Distance" < '.$distance.' ORDER BY "Distance" LIMIT 0 , '.$limit.';';
        
-        $markerClass = StoreFinder::$Marker;
-        var_dump($markerClass);
+        $markerClass = StoreFinder::$MarkerClass;
         $sqlQuery = new SQLQuery();
         $sqlQuery->setFrom($markerClass);
         $sqlQuery->selectField('*');
@@ -152,15 +151,12 @@ class StoreFinder_Controller extends Page_Controller {
             $sqlQuery->selectField('( 3959 * acos( cos( radians('.$lat.') ) * cos( radians( Latitude ) ) * cos( radians( Longitude ) - radians('.$long.') ) + sin( radians('.$lat.') ) * sin( radians( Latitude ) ) ) )', 'Distance');
             $sqlQuery->setHaving("Distance <= ".$distance);
             $sqlQuery->setOrderBy('Distance');
-
         }
         else if($productName != null && $lat !=0 && $long !=0) {
             $sqlQuery->selectField('( 3959 * acos( cos( radians('.$lat.') ) * cos( radians( Latitude ) ) * cos( radians( Longitude ) - radians('.$long.') ) + sin( radians('.$lat.') ) * sin( radians( Latitude ) ) ) )', 'Distance');        
             $sqlQuery->setWhere("Marker.ProductName = '".$productName."'");
             $sqlQuery->setHaving("Distance <= ".$distance);
             $sqlQuery->setOrderBy('Distance');
-
-           
         }
         else if($productName != null && $lat ==0 && $long ==0) {
             $sqlQuery->selectField('0', 'Distance');
@@ -168,7 +164,7 @@ class StoreFinder_Controller extends Page_Controller {
             $sqlQuery->setOrderBy('ProductName');
         }
        
-        if($markerClass != 'StoreLocation'){
+        if($markerClass != 'Marker'){
             $sqlQuery->addLeftJoin("Marker", 'Marker.ID = '.$markerClass.'.ID');
         }
         $this->extraSQL($sqlQuery);
