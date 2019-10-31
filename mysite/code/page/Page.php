@@ -21,9 +21,11 @@ class Page extends SiteTree
     {
         $pages = $class::get();
         $uniquePages = new ArrayList();
+        $arrayContains = array();
         foreach($pages as $page) {
-            if (($key = array_search($page->$column, $uniquePages)) === NULL) {
+            if (($key = array_search($page->$column, $arrayContains)) === NULL) {
                 $uniquePages->push(new ArrayData(array($column => $page->$column)));
+                $arrayContains->push($page->$column)
             }
         }
         return $uniquePages->count()? $uniquePages:false;
