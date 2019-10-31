@@ -26,7 +26,7 @@ class Page extends SiteTree
                 $uniquePages->push(new ArrayData(array($column => $page->$column)));
             }
         }
-        return $pages->count()? $pages:false;
+        return $uniquePages->count()? $uniquePages:false;
     }
 
     function ListPageByTypeUsingID($class,$ID)
