@@ -17,11 +17,14 @@ class Page extends SiteTree
 		return $pages->count()? $pages:false;
 	}
 
-     function ListPageByTypeUniqueColumn($class, $ID, $column)
+     function ListPageByTypeUniqueColumn($class, $column)
     {
-        $pages = $class::get()->map($ID, $column);
-       $uniquePages = array_unique($pages->toArray());
-        return $pages->count()? $pages:false;
+        $pages = $class::get();
+        $uniquePages = new ArrayList();
+        foreach($pages as $page) {
+            $uniquePages->push(new ArrayData(array($column => $page[$column])));
+        }
+        return $uniquePages->count()? $uniquePages:false;
     }
 
     function ListPageByTypeUsingID($class,$ID)

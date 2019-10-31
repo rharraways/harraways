@@ -8,7 +8,7 @@
             <div class="col-md-12" style="margin-bottom:20px;width:100%;">
                 <select  style="width:100%;" id="productSelect">
                     <option  style="width:100%;" value="noProductSelected">Please select product</option>
-                    <% loop $ListPageByTypeUniqueColumn('Product', 'ID', 'ProductType') %>
+                    <% loop $ListPageByTypeUniqueColumn('Product', 'ProductType') %>
                         <% if $ProductType != ""  %>
                             <option value="$ProductType">$ProductType</option>
                         <% end_if %>
