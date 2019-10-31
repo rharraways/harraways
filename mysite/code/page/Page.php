@@ -22,7 +22,7 @@ class Page extends SiteTree
         $pages = $class::get();
         $uniquePages = new ArrayList();
         foreach($pages as $page) {
-            if (($key = array_search($page->$column, $uniquePages)) !== NULL) {
+            if (($key = array_search($page->$column, $uniquePages)) === NULL) {
                 $uniquePages->push(new ArrayData(array($column => $page->$column)));
             }
         }
