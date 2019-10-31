@@ -173,7 +173,7 @@ function searchLocationsNear(center,lats,lngs,useCurrentLoc ) {
                     parseFloat(markerNodes[i].getAttribute("lng"))
                 );
                 console.log("markers distance "+markerNodes[i].getAttribute("distance"));
-                createOption(productname,storename,address, distance, i);
+                //createOption(productname,storename,address, distance, i);
                 createMarker(latlng, storename, address);
                // bounds.extend(latlng);
             }

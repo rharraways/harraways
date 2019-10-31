@@ -29,12 +29,12 @@
             <div class="col-md-12" style="margin-bottom:20px;">
                 <input style="width:100%;" type="submit" id="searchLocations" value="Search"/>
             </div>
-            <div class="col-md-12">
+            <!--<div class="col-md-12">
                 <div class="row text-center justify-content-center" style="margin-bottom:20px;">
                     <h1 class="text-uppercase">OR</h1>
                 </div>
                 <input  style="width:100%;" type="submit" id="findCurrentLocation" value="Use Current Location"/>
-            </div>
+            </div>-->
         </div>
         <div class="col-md-8 store-map">
             <div style="margin-bottom:10px;"><select id="locationSelect" style="width:100%;visibility:hidden"></select></div>
