@@ -30,7 +30,7 @@ class Product extends Page {
 		'NutritionalInformationPanel' => 'HTMLText',
 		'DisplayAsFeatureProduct' =>'Boolean',
 		'ShortTitle' => 'Varchar(250)',
-		
+		'ProductType' => 'Varchar(250)',
 	);
 
 	/**
@@ -168,6 +168,7 @@ class Product extends Page {
 
 		$fields->addFieldToTab('Root.Main', new PriceField('Price'), 'Content');
 		$fields->addFieldToTab("Root.Main", TextField::create("ShortTitle", "Title to display on catgeory page"),'Content');
+		$fields->addFieldToTab("Root.Main", TextField::create("ProductType", "Product type e.g. 'Rolled Oats'"),'Content');
         #$fields->addFieldToTab('Root.Main', new UploadField($name ='PlaceHolderProductImage',$title = 'Image Display on product Category Page'),'Content');
         
          $fields->addFieldToTab(
