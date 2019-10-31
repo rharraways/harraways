@@ -8,9 +8,11 @@
             <div class="col-md-12" style="margin-bottom:20px;width:100%;">
                 <select  style="width:100%;" id="productSelect">
                     <option  style="width:100%;" value="noProductSelected">Please select product</option>
+                    <% $productTypes = new ArrayList() %>
                     <% loop $ListPageByType('Product') %>
-                        <% if $ProductType != "" %>
+                        <% if $ProductType != "" && !in_array($ProductType, $ProductTypes) %>
                             <option value="$ProductType">$ProductType</option>
+                            <% $productTypes->push($ProductType) %>
                         <% end_if %>
                     <% end_loop %>
                 </select>
