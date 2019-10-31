@@ -9,7 +9,7 @@
                 <select  style="width:100%;" id="productSelect">
                     <option  style="width:100%;" value="noProductSelected">Please select product</option>
                     <% loop $ListPageByType('Product') %>
-                        <option value="$title">$Title</option>
+                        <option value="$ProductType">$ProductType</option>
                     <% end_loop %>
                 </select>
             </div>
