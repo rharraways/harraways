@@ -219,12 +219,14 @@ function clearLocations() {
 	}
 	markers.length = 0;
 
+  /*
 	locationSelect.innerHTML = "";
 	var option = document.createElement("option");
 	option.value = "none";
 	option.innerHTML = "See all results:";
 	locationSelect.appendChild(option);
 	locationSelect.style.visibility = "visible";
+  */
 }
 
 /**
@@ -361,7 +363,7 @@ function doNothing() {}
 jQuery(document).ready(function($){
 	load();
     $("#searchLocations").click(searchLocations);
-     $("#findCurrentLocation").click(findCurrentLocation);
+    $("#findCurrentLocation").click(findCurrentLocation);
 
 
     initializeGeoLocation();
