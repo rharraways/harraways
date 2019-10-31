@@ -22,9 +22,9 @@ class Page extends SiteTree
         $pages = $class::get();
         $uniquePages = new ArrayList();
         foreach($pages as $page) {
-            $uniquePages->push(new ArrayData(array($column => $page[$column])));
+            $uniquePages->push(new ArrayData(array($column => $page->$column)));
         }
-        return $uniquePages->count()? $uniquePages:false;
+        return $pages->count()? $pages:false;
     }
 
     function ListPageByTypeUsingID($class,$ID)
