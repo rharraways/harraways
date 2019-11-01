@@ -36,6 +36,9 @@ class Member extends DataObject implements TemplateGlobalProvider {
 		'FullAddress' => 'Varchar',
 		'Email' => 'Varchar(254)', // See RFC 5321, Section 4.5.3.1.3. (256 minus the < and > character)
 		'PhoneNumber' => 'Varchar',
+		'Country' => 'Varchar',
+		'CompanyName' => 'Varchar',
+		'CompanyDetials' => 'Varchar',
 
 		'TempIDHash' => 'Varchar(160)', // Temporary id used for cms re-authentication
 		'TempIDExpired' => 'SS_Datetime', // Expiry of temp login
