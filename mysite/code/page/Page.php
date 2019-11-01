@@ -23,7 +23,7 @@ class Page extends SiteTree
         $uniquePages = new ArrayList();
         $arrayContains = array();
         foreach($pages as $page) {
-            if (!in_array($page->$column."", $arrayContains)) {
+            if (!in_array($page->$column, $arrayContains)) {
                 $uniquePages->push(new ArrayData(array($column => $page->$column)));
                 array_push($arrayContains, $page->$column);
             }
