@@ -79,6 +79,21 @@ class MemberProfilePage extends Page implements PermissionProvider {
 			'ProfileVisibility'      => 'Edit',
 			'PublicVisibility'       => 'MemberChoice'
 		),
+		'CompanyName' => array(
+			'RegistrationVisibility' => 'Edit',
+			'ProfileVisibility'      => 'Edit',
+			'PublicVisibility'       => 'MemberChoice'
+		),
+		'CompanyDetials' => array(
+			'RegistrationVisibility' => 'Edit',
+			'ProfileVisibility'      => 'Edit',
+			'PublicVisibility'       => 'MemberChoice'
+		),
+		'PhoneNumber' => array(
+			'RegistrationVisibility' => 'Edit',
+			'ProfileVisibility'      => 'Edit',
+			'PublicVisibility'       => 'MemberChoice'
+		),
 		'FirstName' => array(
 			'RegistrationVisibility' => 'Edit',
 			'ProfileVisibility'      => 'Edit',
@@ -918,6 +933,28 @@ class MemberProfilePage_Controller extends Page_Controller {
 			$fields->push($field);
 		}
 
+		/* Adding custom fields */
+/*
+		$fields->push(TextField::create("Phone", "Phone Number", null, null, null));
+		$phone_field = $fields->dataFieldByName('Phone');
+		$phone_field->setAttribute('placeholder', "Phone Number");
+
+		$fields->push(TextField::create("Country", "Country", null, null, null));
+		$country_field = $fields->dataFieldByName('Country');
+		$country_field->setAttribute('placeholder', "Country");
+
+		$fields->push(TextField::create("CompanyName", "Company Name", null, null, null));
+		$companyname_field = $fields->dataFieldByName('CompanyName');
+		$companyname_field->setAttribute('placeholder', "CompanyName");
+
+		$fields->push(TextareaField::create("CompanyDetails", "Company Details", null, null, null));
+		$companydetails_field = $fields->dataFieldByName('CompanyDetails');
+		$companydetails_field->setAttribute('placeholder', "Please let us know why you are inquiring and so details about your company.");
+
+		$fields->push(CheckboxField::create("SalesAccount", "Sale Account", null, null, null));
+		$saleaccount_field = $fields->dataFieldByName('SalesAccount');
+		$saleaccount_field->setAttribute('placeholder', "SalesAccount");
+*/
 		$this->extend('updateProfileFields', $fields);
 		return $fields;
 	}
