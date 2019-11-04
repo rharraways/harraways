@@ -82,11 +82,13 @@ class MemberProfilePage extends Page implements PermissionProvider {
 		'CompanyName' => array(
 			'RegistrationVisibility' => 'Edit',
 			'ProfileVisibility'      => 'Edit',
+			'MemberListVisible'      => true,
 			'PublicVisibility'       => 'MemberChoice'
 		),
 		'CompanyDetials' => array(
 			'RegistrationVisibility' => 'Edit',
 			'ProfileVisibility'      => 'Edit',
+			'MemberListVisible'      => true,
 			'PublicVisibility'       => 'MemberChoice'
 		),
 		'PhoneNumber' => array(
