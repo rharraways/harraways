@@ -56,11 +56,6 @@ body {
     height: 100%;
 }
 
-main {
-    padding-bottom: 13.5rem;
-}
-
-.footer-container {
-    position: fixed;
-    bottom: 0;
+.main {
+    min-height: 72%;
 }
