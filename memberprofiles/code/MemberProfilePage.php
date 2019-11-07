@@ -836,7 +836,6 @@ class MemberProfilePage_Controller extends Page_Controller {
 					Director::baseURL(), 'member-approval', $member->ID, '?token=' . $member->ValidationKey
 				);
 
-				$email->setFrom('no-reply@server.theharrydog.com');
 				$email->setSubject("Registration Approval Requested for $config->Title");
 				$email->setBcc(implode(',', array_unique($emails)));
 				$email->setTemplate('MemberRequiresApprovalEmail');
