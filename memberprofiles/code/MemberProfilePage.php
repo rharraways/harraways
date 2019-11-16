@@ -85,7 +85,7 @@ class MemberProfilePage extends Page implements PermissionProvider {
 			'MemberListVisible'      => true,
 			'PublicVisibility'       => 'MemberChoice'
 		),
-		'CompanyDetials' => array(
+		'CompanyDetails' => array(
 			'RegistrationVisibility' => 'Edit',
 			'ProfileVisibility'      => 'Edit',
 			'MemberListVisible'      => true,
