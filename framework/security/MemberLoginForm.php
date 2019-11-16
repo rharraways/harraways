@@ -112,7 +112,7 @@ class MemberLoginForm extends LoginForm {
 		if(isset($backURL)) {
 			$fields->push(HiddenField::create('BackURL', 'BackURL', $backURL));
 		} else {
-			$fields->push(HiddenField::create('BackURL', 'BackURL', 'domestic-sales'));
+			$fields->push(HiddenField::create('BackURL', 'BackURL', 'account'));
 		}
 
 		// Reduce attack surface by enforcing POST requests
