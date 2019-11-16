@@ -111,9 +111,7 @@ class MemberLoginForm extends LoginForm {
 
 		if(isset($backURL)) {
 			$fields->push(HiddenField::create('BackURL', 'BackURL', $backURL));
-		} else {
-			$fields->push(HiddenField::create('BackURL', 'BackURL', 'account'));
-		}
+		} 
 
 		// Reduce attack surface by enforcing POST requests
 		$this->setFormMethod('POST', true);
@@ -223,13 +221,13 @@ JS;
 				// Spoofing attack, redirect to homepage instead of spoofing url
 				$url = Director::absoluteBaseURL();
 			}
-			return $this->controller->redirect($url);
+			//return $this->controller->redirect($url);
 		}
 
 		// If a default login dest has been set, redirect to that.
 		if ($url = Security::config()->default_login_dest) {
 			$url = Controller::join_links(Director::absoluteBaseURL(), $url);
-			return $this->controller->redirect($url);
+			//return $this->controller->redirect($url);
 		}
 
 		// Redirect the user to the page where they came from
