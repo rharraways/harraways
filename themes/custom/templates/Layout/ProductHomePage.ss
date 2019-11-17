@@ -11,7 +11,7 @@
 <div class="container" style="margin-bottom:20px";>
     <div class="row text-uppercase text-center justify-content-center " style="margin-top:20px;">
         <% loop $ListPageByType('ProductCategory') %>
-            <div class="col-md-3" style="margin-top:25px;">
+            <div class="col-md-3">
                 <a href="$Link"> <img id=""   src="$ProductCategoryPlaceHolderImage.URL" class="img-fluid" alt=""></a>
                 <mreavesh5><a href="$Link" class="text-uppercase"> $ShortTitle </a></mreavesh5>
             </div>
