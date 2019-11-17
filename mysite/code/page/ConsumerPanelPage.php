@@ -50,13 +50,7 @@ class ConsumerPanelPage_Controller extends Page_Controller
   
      public function ConsumerForm() {
 
-            $pages = $class::get();
-            $uniquePages = array();
-            foreach($pages as $page) {
-                if (!in_array($page->$column, $uniquePages)) {
-                    array_push($uniquePages, $page->$column);
-                }
-            }
+        
 
             $fields = new FieldList(
 
