@@ -17,11 +17,11 @@
                 <a href="$LINK"> 
                     <img id=""  src="$PlaceHolderImage.URL" class="img-fluid" alt="">
                 </a>
-                <p>
+                <mreavesh5>
                     <a href="$Link" class="cbl"> 
                         $ShortTitle
                     </a>
-                </p>
+                </mreavesh5>
             </div>
         <% end_loop %>
     </div>
