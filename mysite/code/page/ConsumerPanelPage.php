@@ -57,6 +57,7 @@ class ConsumerPanelPage_Controller extends Page_Controller
                     array_push($uniqueProductTypes, $product->ProductType);
                 }
             }
+            sort($uniqueProductTypes);
         
 
             $fields = new FieldList(
