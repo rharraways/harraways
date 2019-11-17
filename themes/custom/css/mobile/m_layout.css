@@ -345,3 +345,9 @@ producttitle2.right a {
 .faq-container {
     display: none;
 }
+
+#Form_ProfileForm {
+    max-width: 90% !important;
+    margin-left: auto;
+    margin-right: auto;
+}

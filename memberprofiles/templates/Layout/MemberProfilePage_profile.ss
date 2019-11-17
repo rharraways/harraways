@@ -36,7 +36,7 @@
 
                               
                          <div style="margin-bottom:25px;" class="col-md-6 col-centered text-center bgelg">
-                            <a href="/Security/logout" class="btn text-uppercase fz14 py-2 px-3" type="submit">Log out</a>
+                            <a href="/Security/logout" class="btn-logout" type="submit">Log out</a>
                      
                              $Form
                             
