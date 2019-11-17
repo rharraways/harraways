@@ -1098,7 +1098,7 @@ select#recipeCategory {
     }
     a.btn, button, input[type="submit"], .Actions .action {
 
-        font-size: 12px;
+        /*font-size: 12px;*/
         font-weight: bold;
     }
     
