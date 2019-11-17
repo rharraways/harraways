@@ -64,7 +64,7 @@ class ConsumerPanelPage_Controller extends Page_Controller
                     ->setAttribute('class','text addy-2-city'),
                 TextField::create("PostCode")->setAttribute('placeholder', 'Post Code')->setAttribute('id', 'postcode_2')
                     ->setAttribute('class','text addy-2-postcode'),
-                ListboxField::create( $name = "Product", $title = "Product", $ListPageByTypeUniqueColumn('Product', 'ProductType'))->setAttribute('placeholder', 'products')
+                ListboxField::create( $name = "Product", $title = "Product", $ListPageByTypeUniqueColumn('Product', 'ProductType')->toArray())->setAttribute('placeholder', 'products')
                     ->setMultiple(true));
 
 
