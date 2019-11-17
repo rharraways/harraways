@@ -53,7 +53,7 @@ class ConsumerPanelPage_Controller extends Page_Controller
             $products = Product::get();
             $uniqueProductTypes = array();
             foreach($products as $product) {
-                if (!in_array($product->ProductType, $uniqueProductTypes)) {
+                if (!in_array($product->ProductType, $uniqueProductTypes) && $product->ProductType != "") {
                     array_push($uniqueProductTypes, $product->ProductType);
                 }
             }
