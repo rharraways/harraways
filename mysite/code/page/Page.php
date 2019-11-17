@@ -30,7 +30,7 @@ class Page extends SiteTree
 
         $pagesArrayList = new ArrayList();
         foreach($uniquePages as $page) {
-            $pagesArrayList->push(new ArrayData(array($column => $page->$column)));
+            $pagesArrayList->push(new ArrayData(array($column => $page)));
         }
         return $pagesArrayList->count()? $pagesArrayList:false;
     }
