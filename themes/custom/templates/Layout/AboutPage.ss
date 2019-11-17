@@ -49,7 +49,7 @@
         <% end_if %>
     <% end_loop %>
 
-    <div class="container">
+    <!--<div class="container">
         <div class="row text-center justify-content-center py-7 cbl">
             <div class="col-8 " style="margin-top:20px;">
                 <div class="col-md-12 py-2">
@@ -57,7 +57,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 </div>
 
 
