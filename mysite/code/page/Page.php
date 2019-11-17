@@ -20,15 +20,19 @@ class Page extends SiteTree
      function ListPageByTypeUniqueColumn($class, $column)
     {
         $pages = $class::get();
-        $uniquePages = new ArrayList();
-        $arrayContains = array();
+        $uniquePages = array();
         foreach($pages as $page) {
-            if (!in_array($page->$column, $arrayContains)) {
-                $uniquePages->push(new ArrayData(array($column => $page->$column)));
-                array_push($arrayContains, $page->$column);
+            if (!in_array($page->$column, $uniquePages) && $page->$column != "") {
+                array_push($uniquePages, $page->$column);
             }
         }
-        return $uniquePages->count()? $uniquePages:false;
+        sort($uniquePages);
+
+        $pagesArrayList = new ArrayList();
+        foreach($uniquePages as $page) {
+            $pagesArrayList->push(new ArrayData(array($column => $page->$column)));
+        }
+        return $pagesArrayList->count()? $pagesArrayList:false;
     }
 
     function ListPageByTypeUsingID($class,$ID)
