@@ -50,6 +50,13 @@ class ConsumerPanelPage_Controller extends Page_Controller
   
      public function ConsumerForm() {
 
+            $products = Product::get()->map( "ProductType", "ProductType");
+            $uniqueProductTypes = array();
+            foreach($products as $product) {
+            if (!in_array($product->ProductType, $uniqueProductTypes)) {
+                array_push($uniqueProductTypes, $product->ProductType);
+            }
+        }
         
 
             $fields = new FieldList(
@@ -66,7 +73,7 @@ class ConsumerPanelPage_Controller extends Page_Controller
                     ->setAttribute('class','text addy-2-city'),
                 TextField::create("PostCode")->setAttribute('placeholder', 'Post Code')->setAttribute('id', 'postcode_2')
                     ->setAttribute('class','text addy-2-postcode'),
-                ListboxField::create( $name = "Product", $title = "Product", Product::get()->map( "ProductType", "ProductType")->toArray())->setAttribute('placeholder', 'products')
+                ListboxField::create( $name = "Product", $title = "Product", $uniqueProductTypes)->setAttribute('placeholder', 'products')
                     ->setMultiple(true));
 
 
