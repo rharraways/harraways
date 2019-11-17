@@ -13,7 +13,7 @@
         <% loop $ListPageByType('ProductCategory') %>
             <div class="col-md-3" style="margin-top:25px;">
                 <a href="$Link"> <img id=""   src="$ProductCategoryPlaceHolderImage.URL" class="img-fluid" alt=""></a>
-                <p><a href="$Link" class="text-uppercase"> $ShortTitle </a></p>
+                <mreavesh5><a href="$Link" class="text-uppercase"> $ShortTitle </a></mreavesh5>
             </div>
         <% end_loop %>
     </div>
