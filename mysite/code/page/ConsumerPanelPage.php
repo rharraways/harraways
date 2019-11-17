@@ -50,13 +50,13 @@ class ConsumerPanelPage_Controller extends Page_Controller
   
      public function ConsumerForm() {
 
-            $products = Product::get()->map( "ProductType", "ProductType");
+            $products = Product::get();
             $uniqueProductTypes = array();
             foreach($products as $product) {
-            if (!in_array($product->ProductType, $uniqueProductTypes)) {
-                array_push($uniqueProductTypes, $product->ProductType);
+                if (!in_array($product->ProductType, $uniqueProductTypes)) {
+                    array_push($uniqueProductTypes, $product->ProductType);
+                }
             }
-        }
         
 
             $fields = new FieldList(
