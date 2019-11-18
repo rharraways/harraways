@@ -1,4 +1,4 @@
- cgi-bin/*
+cgi-bin/*
 assets/*
 error_log
 deploy.sh
