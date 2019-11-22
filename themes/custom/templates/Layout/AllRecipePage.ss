@@ -54,7 +54,7 @@
                 <% loop $children %>
                 <div class="col-lg-3 col-md-3 col-sm-3 col-6 py-3">
                  <a href="$Link"> <img src="$PlaceHolderImage.CroppedImage(300,300).URL" class="img-fluid" alt=""></a>
-                  <p><a href="$Link" class="cbl tdu fw6">$ShortTitle</a></p>
+                  <mreavesh5><a href="$Link">$ShortTitle</a></mreavesh5>
                 </div>
                 <% end_loop %>
                 </div>
