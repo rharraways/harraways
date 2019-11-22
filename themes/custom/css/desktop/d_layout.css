@@ -52,3 +52,358 @@ html {
     height: 100%;
 }
 
+@media (max-width 1000px) {
+    .header-container {
+        max-width: 100% !important;
+        padding: 0px !important;
+    }
+
+    .searchform-container {
+        display: none;
+    }
+
+    .navbar-brand-container {
+        max-width: 50% !important;
+        flex: none !important;
+        height: fit-content;
+        position: absolute !important;
+        margin-left: 10px;
+    }
+
+    .navbar-brand-container .navbar-brand {
+        height: auto !important; 
+    }
+
+    .navbar-container {
+        max-width: 100% !important;
+        flex: none !important;
+    }
+
+
+    .navbar {
+        padding: 0px !important;
+    }
+
+    .navbar .navbar-inner-container {
+        padding-bottom: 30px;
+        height: auto;
+        width: 100%;
+    }
+
+    .navbar .navbar-inner-container .navbar-toggler {
+        height: 57px;
+        width: 57px;
+        float: right;
+        margin-right: 5%;
+        border: 0px !important;
+        margin-top: 20px;
+        padding-top: 0px;
+    }
+
+    .navbar .navbar-inner-container .navbar-collapse {
+        clear: both;
+        padding-top: 40px;
+    }
+
+    .navbar .navbar-inner-container .navbar-collapse .navbar-nav {
+        margin-left: 0px !important;
+    }
+
+    .navbar .navbar-inner-container .navbar-collapse .navbar-nav .parent a {
+        font-size: 25px;
+    }
+
+    .navbar .navbar-inner-container .navbar-collapse .navbar-nav .parent a:hover {
+        text-decoration: none;
+    }
+
+    .navbar .navbar-inner-container .navbar-collapse .dropdown-content {
+        width: 100%;
+        box-shadow: none;
+        position: unset;
+    }
+
+    a#logo {
+        max-width: 200px;
+        height: 136px;
+        margin-top: -25px;
+    }
+
+    .center.leaf {
+        min-width: auto !important;
+    }
+
+
+    /* Banner images (ID: textover) */
+    /* Makes the Banner container an aspect ratio of 1:1 (width always the size of the page) */
+    #textoverimage {
+        width: 100%;
+        padding-top: 100%;
+    }
+    /* a tag conforms to the size of the banner container */
+    #textoverimage > a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    /* img-fluid class conforms to the size of the banner container */
+    #textoverimage > a .img-fluid {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    MrEavesh5 {
+        line-height: 50px;
+    }
+
+    .divider_custom_instagram {
+        width: auto !important;
+    }
+
+
+    /* FOOTER */
+    .footer_logo_container {
+        bottom: 0;
+        position: absolute !important;
+        height: fit-content;
+    }
+
+    .footer_content {
+        margin: 0px !important;
+        padding: 0px !important;
+        width: 55% !important;
+        padding-left: 5% !important;
+        text-align: left;
+        margin-bottom: 7px !important;
+    }
+
+    .footer_content footerh2 {
+        font-size: 20px;
+    }
+
+    .footer_content p {
+        display: none;
+    }
+
+    .footer_links {
+        width: 190px !important;
+        position: absolute !important;
+        right: 0;
+        margin: 0px !important;
+        padding: 0px !important;
+        padding-right: 5% !important;
+        text-align: right;
+    }
+
+    .footer_links .join_online {
+        font-size: 20px;
+    }
+
+    .footer_links .join_online img {
+        margin-top: 10px;
+    }
+
+    footer.CP.yel {
+        min-height: 270px;
+        padding-top: 5px;
+    }
+
+
+    /* FONTS */
+    MrEavesh5 {
+        font-size: 20px;
+        font-family: "Mr Eaves Mod Heavy" !important;
+        font-weight: bold;
+    }
+
+
+    /******************************
+    ************PAGES**************
+    ******************************/
+
+    /* CONTACT PAGE */
+
+    .mobile_form {
+        max-width: 90% !important;
+        flex: 0 0 90% !important;
+    }
+
+    .mobile_form .action {
+        height: 40px;
+    }
+
+    /* COMSUMER PANEL PAGE */
+
+    .mobile_comsumerpanel {
+
+    }
+
+    /* FAQ PAGE */
+    .faq_container p {
+        line-height: 50px !important;
+        font-size: 20px !important;
+        font-family: "Mr Eaves Mod Heavy" !important;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    /* RECIPE PAGE */
+    #listPageRecipeImg mreavesh5 {
+        
+    }
+
+    /* PRODUCT */
+
+    .product_contents {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .product_contents .product_info {
+        margin-top: 20px;
+    }
+
+    .product_contents .parent-container {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+    }
+
+    productNIP {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .carousel-item .col-4.float-left {
+        min-width: 100%;
+    }
+
+    .carousel-item .col-4.float-left mreavesh5 {
+        display: block;
+        line-height: 40px;
+    }
+
+    .recipe_container .row.col-md-12 {
+        padding: 0px !important
+    }
+
+    .recipe_container .row.col-md-12 .col-md-6 {
+        padding: 0px;
+    }
+
+    .offset-md-custom {
+        padding-left: 10px;
+        padding-top: 40px;
+    }
+
+    #recipe {
+        margin-bottom: 20px;
+    }
+
+    producttitle2.right {
+        float: left !important;
+        text-align: left !important;
+        width: 100%;
+    }
+
+    producttitle2.right a {
+        display: block;
+        padding-top: 20px;
+    }
+
+    .custom-margin {
+        margin-top: 95px !important;
+    }
+
+    #listPageRecipeImg {
+        margin: 10px;
+    }
+
+    .faq-container .container {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .m_custom_margin {
+        padding-bottom: 40px;
+    }
+
+    .faq_heading {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    .site-map p {
+        height: 20px;
+    }
+
+    .site-map {
+        margin-bottom: 165px !important;
+    }
+
+    .footer_content a.cbl.footer {
+        font-size: 17px;
+        padding: 0px;
+
+    }
+
+    .footer_content p footertext {
+        font-size: 17px;
+    }
+
+    .row.col-md-12.text-uppercase.text-center.justify-content-center {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .row.col-md-12.text-uppercase.text-center.justify-content-center MrEavesh5 {
+        line-height: 50px;
+    }
+
+    .row.col-md-12.text-uppercase.text-center.justify-content-center .col-md-3 {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .m-flex-column-non-reverse {
+        flex-direction: unset !important;
+    }
+
+    .about-container p {
+        font-size: 21px !important;
+    }
+
+    .store-map {
+        margin-bottom: 20px;
+    }
+
+    .store-map #map {
+        height: 400px !important;
+    }
+
+    #findCurrentLocation {
+        height: 40px;
+        font-size: 20px !important;
+    }
+
+    #searchLocations {
+        height: 40px;
+        font-size: 20px !important;
+    }
+
+    /* Faq */
+
+    .faq-container {
+        display: none;
+    }
+
+    #Form_ProfileForm {
+        max-width: 90% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
