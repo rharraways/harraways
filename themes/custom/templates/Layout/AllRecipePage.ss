@@ -44,8 +44,6 @@
 
 
 <div class="container">
-
-
           <% loop $ListPageByType('RecipeCategoryFirstLevelPage') %>
             <div style="margin-top:20px;" class="row  text-uppercase text-center justify-content-center py-8 cbl">
                <h1>$ShortTitle</h1>
