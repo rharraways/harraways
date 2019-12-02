@@ -154,13 +154,13 @@ class StoreFinder_Controller extends Page_Controller {
         }
         else if($productName != null && $lat !=0 && $long !=0) {
             $sqlQuery->selectField('( 3959 * acos( cos( radians('.$lat.') ) * cos( radians( Latitude ) ) * cos( radians( Longitude ) - radians('.$long.') ) + sin( radians('.$lat.') ) * sin( radians( Latitude ) ) ) )', 'Distance');        
-            $sqlQuery->setWhere("Marker.ProductName = '".$productName."'");
+            $sqlQuery->setWhere('Marker.ProductName LIKE "%'.$productName.'%"');
             $sqlQuery->setHaving("Distance <= ".$distance);
             $sqlQuery->setOrderBy('Distance');
         }
         else if($productName != null && $lat ==0 && $long ==0) {
             $sqlQuery->selectField('0', 'Distance');
-            $sqlQuery->setWhere("Marker.ProductName LIKE '%".$productName."%'");
+            $sqlQuery->setWhere('Marker.ProductName LIKE "%'.$productName.'%"');
             $sqlQuery->setOrderBy('ProductName');
         }
        
